@@ -1,0 +1,55 @@
+export const TRANSLATIONS_EN = {
+  name: "Fateme Ghafari",
+
+  home: "Home",
+  aboutme: "About Me",
+  resume: "Resume",
+  portfolios: "Portfolios",
+  contact: "Contact",
+
+  age: "Age",
+  dob: "Date of birth",
+  dobA: "1998.09.05",
+  address: "Address",
+  addressA: "Iran, Tehran",
+  email: "E-mail",
+  // emailA: "fatemeghafari77[@]gmail.com",
+
+  aboutmeTwo:
+  "I am 24 years old and I am a web developer living in Tehran. I studied insurance management at university, but due to my interest in this field, I decided to learn web design. I am interested in learning and progressing in the field of site design. I have also just started learning UI design and I hope to reach a good level in this field soon.",
+  mySkills: "my skills",
+  languages: "languages",
+  farsi: "farsi",
+  english: "english",
+  korean: "korean",
+
+  resumeTwo: "Resume",
+  education: "Education",
+  educationYear: "2017 - 2021",
+  educationTitle: "College education",
+  educationText: "South Tehran Branch of Azad University, Department of Management ,Insurance Management",
+  educationYearTwo: "2014 - 2016",
+  educationTitleTwo: "High School",
+  educationTextTwo: "I studied Experimental field I high school.",
+  
+  experience: "Experience",
+  experienceYear: "2019 - 2022",
+  experienceTitle: "Web Developer",
+  experienceText: "I started learning about it in 1998 in Tehran Technical Complex.",
+  experienceYearTwo: "2018",
+  experienceTitleTwo: "ICDL",
+  experienceTextTwo: "I started learning this skill in the summer.",
+  experienceYearThree: "2022",
+  experienceTitleThree: "UI",
+  experienceTextThree: "I have just started learning about this field.",
+
+  contactTwo: "Contact",
+  getInTouch: "Get In Touch",
+  // getInTouchText:
+  //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsum voluptas quasi minima ullam tenetur,",
+  findMe: "Find Me",
+  teharnIran: "Teharn,Iran",
+  mailMe: "Mail Me",
+  emailTwo: "fatemeghafari77[@]gmail.com",
+  callMe:"call Me",
+};

@@ -1,0 +1,165 @@
+.contact{
+    width: 90%;
+    height: 100%;
+    background: white;
+    
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5%;
+    margin-top: 15%;
+}
+.contact h1{
+    color: #222222;
+    padding-bottom: 25px;
+    line-height: 1;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+/* .contactSec div */
+
+/* .contactSec div p{
+    margin: 10px 0 20px 0;
+    color: #111;
+    font-size: 15px;
+    line-height: 28px;
+} */
+
+.contactSec h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(37, 37, 37);
+    margin-top: 20px;
+}
+
+.contactSec img{
+    width: 15%;
+    margin: 10px 0;
+}
+
+
+.contactDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10px 0;
+}
+
+
+/* findeMe & mailMe */
+.fm{
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.fm div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.fm div span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+    margin-top: 10px;
+
+}
+
+.fm div p{
+    color: #666;
+    line-height: 1.2;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.fm div svg{
+    color: #47a3da;
+    font-size: 33px;
+}
+
+.fm div svg:hover {
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    transform: scale(1.2);
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    /* .contact {
+        width: 85%;
+        margin: 7.5%;
+        margin-top: 15%;
+    } */
+}
+
+@media screen and (min-width:993px){
+
+    .contact {
+        width: 70%;
+        margin: 5% 5%  5% 27%;
+    }
+
+    .contactDiv{
+        flex-direction: unset;
+    }
+    .contactDiv p{
+        width: 50%;
+    }
+    .fm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fm div{
+        margin: 50px;
+    }
+
+}
+
+@media screen and (min-width:1201px){
+    .contact {
+        width: 60%;
+    }
+}

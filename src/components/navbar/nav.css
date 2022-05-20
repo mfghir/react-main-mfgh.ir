@@ -1,0 +1,87 @@
+.nav{
+    background: #ffffff;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-left: 2px solid silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    z-index: 55;
+    
+    text-align: center;
+    padding: 50px 10px;
+    overflow-x: hidden;
+    
+    transition: 1s !important;
+}
+
+
+.cssRight{
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: 1s !important;
+}
+.cssLeft{
+    transition: 1s !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* .animRight{
+    animation: animRight 1s ease 0s 1 normal forwards;
+}
+
+.animLeft{
+    animation: animLeft 1s ease 0s 1 normal forwards;
+} */
+
+@keyframes animLeft {
+	0% {
+        right: 0;
+	}
+	100% {
+        right: 75%;
+	}
+}
+
+
+@keyframes animRight {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: 50%;
+	}
+}
+
+
+/* @media screen and (max-width:767px){}
+
+@media screen and (min-width:768px){} */
+
+@media screen and (min-width:993px){
+    .cssLeft{
+        padding: 35px;
+        animation: animLeft 1s ease 0s 1 normal forwards;
+    }
+
+    .cssRight{
+        animation: animRight 1s ease 0s 1 normal forwards;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .cssLeft{
+        animation: animLeft 1s ease 0s 1 normal forwards;
+        padding: 50px;
+    }
+}
