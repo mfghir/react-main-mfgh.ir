@@ -20,12 +20,15 @@ import proj8 from "./img/Proj8.png";
 import proj9 from "./img/Proj9.png";
 import proj10 from "./img/Proj10.png";
 import proj11 from "./img/Proj11.png";
+import Proj12 from "./img/Proj12.PNG";
+import Proj13 from "./img/Proj13.PNG";
 
 // --------- js
 import js1 from "./img/js1.PNG";
 import js2 from "./img/js2.PNG";
 import js3 from "./img/js3.PNG";
 import js4 from "./img/js4.PNG";
+import js5 from "./img/js5.PNG";
 
 // --------- react
 import react1 from "./img/react1.PNG"
@@ -35,7 +38,6 @@ import react4 from "./img/react4.PNG"
 import react5 from "./img/react5.PNG"
 import react6 from "./img/react6.PNG"
 import react7 from "./img/react7.PNG"
-import react8 from "./img/react8.PNG"
 
 
 export default {
@@ -50,12 +52,15 @@ export default {
   proj9,
   proj10,
   proj11,
+  Proj12,
+  Proj13,
 
   // js,
   js1,
   js2,
   js3,
   js4,
+  js5,
 
   
   // react,
@@ -66,7 +71,6 @@ export default {
   react5,
   react6,
   react7,
-  react8,
 
 
   avatar,
