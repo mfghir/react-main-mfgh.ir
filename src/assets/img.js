@@ -38,6 +38,7 @@ import react4 from "./img/react4.PNG"
 import react5 from "./img/react5.PNG"
 import react6 from "./img/react6.PNG"
 import react7 from "./img/react7.PNG"
+import react8 from "./img/react8.PNG"
 
 
 export default {
@@ -71,6 +72,7 @@ export default {
   react5,
   react6,
   react7,
+  react8,
 
 
   avatar,
