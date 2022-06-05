@@ -118,7 +118,7 @@ export const PortfoliosData = [
     title: "Js",
     description: "Rock, Paper & Scissors game with js",
     imgUrl: img.js1,
-    gitLink: "",
+    gitLink: "https://github.com/mfghir/rock-scissors-paper-game-with-js",
     netlifyLink: "https://rock-paper-scissors-game-with-js.netlify.app",
   },
   {
