@@ -39,6 +39,9 @@ import react5 from "./img/react5.PNG"
 import react6 from "./img/react6.PNG"
 import react7 from "./img/react7.PNG"
 import react8 from "./img/react8.PNG"
+import react9 from "./img/react9.PNG"
+import react10 from "./img/react10.PNG"
+import react11 from "./img/react11.PNG"
 
 
 export default {
@@ -73,6 +76,9 @@ export default {
   react6,
   react7,
   react8,
+  react9,
+  react10,
+  react11,
 
 
   avatar,

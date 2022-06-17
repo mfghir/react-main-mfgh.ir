@@ -221,5 +221,28 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/signin-form",
     netlifyLink: "https://form-signin-persian.netlify.app",
   },
-
+    {
+    id: 209,
+    title: "React",
+    description: "Hamburger Menu",
+    imgUrl: img.react9,
+    gitLink: "https://github.com/mfghir/hamburger-menu-with-react",
+    netlifyLink: "https://hamburger-menu-with-react.netlify.app",
+  },
+  {
+    id: 210,
+    title: "React",
+    description: "Movie Search",
+    imgUrl: img.react10,
+    gitLink: "https://github.com/mfghir/movie-redux-toolkit",
+    netlifyLink: "https://movie-react-redux-app.netlify.app",
+  },
+  {
+    id: 211,
+    title: "React",
+    description: "Music Player",
+    imgUrl: img.react11,
+    gitLink: "https://github.com/mfghir/react-music-player",
+    netlifyLink: "https://react-music-player-mfgh.netlify.app",
+  },
 ];
