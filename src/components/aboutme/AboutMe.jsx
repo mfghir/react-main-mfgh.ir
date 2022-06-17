@@ -102,6 +102,17 @@ const AboutMe = ({ location }) => {
             </div>
 
             <div>
+              <span>Redux</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
               <span>React Native</span>
               <ul>
                 <li></li>
