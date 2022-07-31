@@ -133,6 +133,17 @@ const AboutMe = ({ location }) => {
                 <li className={styles.false}></li>
               </ul>
             </div>
+
+            <div>
+              <span>GraphQL</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
           </section>
 
           <section className={styles.languages}>

@@ -245,4 +245,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/react-music-player",
     netlifyLink: "https://react-music-player-mfgh.netlify.app",
   },
+  {
+    id: 212,
+    title: "React",
+    description: "Gym Exercise",
+    imgUrl: img.react12 ,
+    gitLink: "https://github.com/mfghir/gym-exercises",
+    netlifyLink: "https://mfgh-gym-exercise.netlify.app",
+  },
 ];
