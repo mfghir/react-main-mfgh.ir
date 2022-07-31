@@ -148,10 +148,18 @@ export const PortfoliosData = [
   {
     id: 105,
     title: "Js",
-    description: "Clock",
+    description: "Progress Bar",
     imgUrl: img.js5,
     gitLink: "https://github.com/mfghir/clock",
     netlifyLink: "https://clock-with-js-mfghir.netlify.app",
+  },
+  {
+    id: 106,
+    title: "Js",
+    description: "Progress Bar",
+    imgUrl: img.js6,
+    gitLink: "https://github.com/mfghir/progress-bar",
+    netlifyLink: "https://mfgh-progress-bar.netlify.app",
   },
 
   
