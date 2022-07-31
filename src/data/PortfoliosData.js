@@ -269,4 +269,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/theme-changer-with-react",
     netlifyLink: "https://mfgh-theme-changer.netlify.app/",
   },
+  {
+    id: 214,
+    title: "React",
+    description: "Inventory React App",
+    imgUrl: img.react14 ,
+    gitLink: "https://github.com/mfghir/inventory-react-app",
+    netlifyLink: "https://inventory-react-app.netlify.app",
+  },
 ];
