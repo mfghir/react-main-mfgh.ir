@@ -32,6 +32,7 @@ import js5 from "./img/js5.PNG";
 import js6 from "./img/js6.PNG";
 import js7 from "./img/js7.PNG";
 import js8 from "./img/js8.PNG";
+import js9 from "./img/js9.PNG";
 
 // --------- react
 import react1 from "./img/react1.PNG"
@@ -75,6 +76,7 @@ export default {
   js6,
   js7,
   js8,
+  js9,
 
   
   // react,

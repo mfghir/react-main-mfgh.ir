@@ -173,7 +173,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/Beat-Maker-App",
     netlifyLink: "https://mfgh-beat-maker-app.netlify.app",
   },
-
+  {
+    id: 109,
+    title: "Js",
+    description: "Color Picke",
+    imgUrl: img.js9,
+    gitLink: "https://github.com/mfghir/color-picker",
+    netlifyLink: "https://mfgh-color-picker.netlify.app",
+  },
   // ---------------------------- react
 
   {
