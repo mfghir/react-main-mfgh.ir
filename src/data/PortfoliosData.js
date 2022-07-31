@@ -157,6 +157,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/progress-bar",
     netlifyLink: "https://mfgh-progress-bar.netlify.app",
   },
+  {
+    id: 107,
+    title: "Js",
+    description: "Todo List",
+    imgUrl: img.js7,
+    gitLink: "https://github.com/mfghir/todo-app-with-js",
+    netlifyLink: "https://mfgh-todo-app.netlify.app",
+  },
 
   // ---------------------------- react
 
