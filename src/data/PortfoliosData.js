@@ -165,6 +165,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/todo-app-with-js",
     netlifyLink: "https://mfgh-todo-app.netlify.app",
   },
+  {
+    id: 108,
+    title: "Js",
+    description: "Beat Maker App",
+    imgUrl: img.js8,
+    gitLink: "https://github.com/mfghir/Beat-Maker-App",
+    netlifyLink: "https://mfgh-beat-maker-app.netlify.app",
+  },
 
   // ---------------------------- react
 

@@ -30,6 +30,8 @@ import js3 from "./img/js3.PNG";
 import js4 from "./img/js4.PNG";
 import js5 from "./img/js5.PNG";
 import js6 from "./img/js6.PNG";
+import js7 from "./img/js7.PNG";
+import js8 from "./img/js8.PNG";
 
 // --------- react
 import react1 from "./img/react1.PNG"
@@ -71,6 +73,8 @@ export default {
   js4,
   js5,
   js6,
+  js7,
+  js8,
 
   
   // react,
