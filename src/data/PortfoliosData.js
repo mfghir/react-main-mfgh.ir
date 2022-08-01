@@ -303,4 +303,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/countdown-to-new-year",
     netlifyLink: "https://mfgh-countdown-to-new-year.netlify.app",
   },
+  {
+    id: 216,
+    title: "React",
+    description: "Blog with GraphQL",
+    imgUrl: img.react16,
+    gitLink: "https://github.com/mfghir/graphql-blog",
+    netlifyLink: "https://mfgh-graphql-blog.netlify.app",
+  },
 ];
