@@ -110,11 +110,17 @@ export const PortfoliosData = [
   {
     id: 14,
     title: "Web",
-    description: "Animation site",
+    description: "Animation Web",
     imgUrl: img.Proj14,
     gitLink: "https://github.com/mfghir/animating-website",
     netlifyLink: "https://mfgh-animation-web.netlify.app",
   },
+
+
+
+
+
+
 
   //  ----------------  js
   {
@@ -189,6 +195,17 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/color-picker",
     netlifyLink: "https://mfgh-color-picker.netlify.app",
   },
+    {
+    id: 110,
+    title: "Js",
+    description: "Text Animation",
+    imgUrl: img.js10,
+    gitLink: "https://github.com/mfghir/text-animation",
+    netlifyLink: "https://mfgh-text-animation.netlify.app",
+  },
+
+
+
   // ---------------------------- react
 
   {
