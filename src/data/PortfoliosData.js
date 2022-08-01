@@ -107,6 +107,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/twelve-web-proj",
     netlifyLink: "https://web-proj-twelve.netlify.app",
   },
+  {
+    id: 14,
+    title: "Web",
+    description: "Animation site",
+    imgUrl: img.Proj14,
+    gitLink: "https://github.com/mfghir/animating-website",
+    netlifyLink: "https://mfgh-animation-web.netlify.app",
+  },
 
   //  ----------------  js
   {

@@ -22,6 +22,7 @@ import proj10 from "./img/Proj10.png";
 import proj11 from "./img/Proj11.png";
 import Proj12 from "./img/Proj12.PNG";
 import Proj13 from "./img/Proj13.PNG";
+import Proj14 from "./img/Proj14.PNG";
 
 // --------- js
 import js1 from "./img/js1.PNG";
@@ -67,6 +68,7 @@ export default {
   proj11,
   Proj12,
   Proj13,
+  Proj14,
 
   // js,
   js1,
