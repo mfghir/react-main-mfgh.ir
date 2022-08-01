@@ -205,7 +205,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/icons-animations",
     netlifyLink: "https://icons-animations.netlify.app",
   },
-
+  {
+    id: 112,
+    title: "Js",
+    description: "Form Animation",
+    imgUrl: img.js12,
+    gitLink: "https://github.com/mfghir/form-animation",
+    netlifyLink: "https://mfgh-form-animation.netlify.app",
+  },
   // ---------------------------- react
 
   {
