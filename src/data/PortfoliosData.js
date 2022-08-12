@@ -353,4 +353,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/graphql-blog",
     netlifyLink: "https://mfgh-graphql-blog.netlify.app",
   },
+  {
+    id: 217,
+    title: "React",
+    description: "Hiragana Quiz App",
+    imgUrl: img.react17,
+    gitLink: "https://github.com/mfghir/hiragana-quiz-react-app",
+    netlifyLink: "https://hiragana-quiz-react-app.netlify.app",
+  }
 ];
