@@ -360,5 +360,13 @@ export const PortfoliosData = [
     imgUrl: img.react17,
     gitLink: "https://github.com/mfghir/hiragana-quiz-react-app",
     netlifyLink: "https://hiragana-quiz-react-app.netlify.app",
-  }
+  },
+  {
+    id: 218,
+    title: "React",
+    description: "Anime Search With GraphQL",
+    imgUrl: img.react18,
+    gitLink: "https://github.com/mfghir/anime-search-with-graphql",
+    netlifyLink: "https://mfgh-anime-search.netlify.app",
+  },
 ];
