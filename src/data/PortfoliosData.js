@@ -377,5 +377,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/weather-app-with-graphql",
     netlifyLink: "https://weather-app-with-graphql.vercel.app",
   },
-
+  {
+    id: 220,
+    title: "React",
+    description: "Sample Site With Tailwind",
+    imgUrl: img.react20,
+    gitLink: "https://github.com/mfghir/sample-site-with-tailwind",
+    netlifyLink: "https://sample-site-with-tailwind.netlify.app",
+  },
 ];
