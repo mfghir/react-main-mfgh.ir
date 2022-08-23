@@ -58,6 +58,8 @@ import react15 from "./img/react15.PNG"
 import react16 from "./img/react16.PNG"
 import react17 from "./img/react17.PNG"
 import react18 from "./img/react18.PNG"
+import react19 from "./img/react19.PNG"
+import react20 from "./img/react20.PNG"
 
 
 export default {
@@ -111,6 +113,8 @@ export default {
   react16,
   react17,
   react18,
+  react19,
+  react20,
 
 
   avatar,

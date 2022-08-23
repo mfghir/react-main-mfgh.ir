@@ -369,4 +369,13 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/anime-search-with-graphql",
     netlifyLink: "https://mfgh-anime-search.netlify.app",
   },
+  {
+    id: 219,
+    title: "React",
+    description: "Weather App With GraphQL",
+    imgUrl: img.react19,
+    gitLink: "https://github.com/mfghir/weather-app-with-graphql",
+    netlifyLink: "https://weather-app-with-graphql.vercel.app",
+  },
+
 ];
