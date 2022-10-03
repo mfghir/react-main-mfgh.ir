@@ -3,7 +3,10 @@
   height: 100%;
   min-height: 100vh;
 
-  background: rgb(255, 255, 255);
+  background: var(--bg-color-sec);
+  box-shadow: var(--box-shadow-sec);
+  color: var(--p-color);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +14,14 @@
   flex-wrap: wrap;
   border-radius: 5px;
   margin: 5%;
+
   margin-top: 15%;
 }
 
 .aboutme img {
   width: 100%;
 }
+
 .aboutme p {
   font-size: 15px;
   padding: 30px;
@@ -42,11 +47,13 @@
   font-size: 17px;
   text-transform: uppercase;
 }
+
 .skills img,
 .languages img {
   width: 20%;
   margin: 10px 0;
 }
+
 .skills div,
 .languages div {
   display: flex;
@@ -54,12 +61,14 @@
   align-items: center;
   margin: 20px 0;
 }
+
 .skills div ul,
 .languages div ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .skills div ul li,
 .languages div ul li {
   width: 10px;
@@ -68,6 +77,7 @@
   border-radius: 50%;
   margin: 0 5px;
 }
+
 .false {
   opacity: 0.19;
 }
@@ -86,10 +96,10 @@
 
 
 
-@media screen and (max-width: 767px) {
-}
+@media screen and (max-width: 767px) {}
 
 @media screen and (min-width: 768px) {
+
   /* .aboutme {
     width: 85%;
     margin: 7.5%;
@@ -99,6 +109,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .skills,
   .languages {
     width: 48%;
@@ -107,8 +118,8 @@
 
 @media screen and (min-width: 993px) {
   .aboutme {
-        width: 70%;
-        margin: 5% 5%  5% 27%;
+    width: 70%;
+    margin: 5% 5% 5% 27%;
   }
 }
 

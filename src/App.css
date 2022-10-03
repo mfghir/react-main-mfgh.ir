@@ -3,20 +3,14 @@
 }
 
 
-
-
-
-
-
-
 /* @media screen and (min-width:768px){} */
 
-@media screen and (min-width:993px){
-  .App{
+@media screen and (min-width:993px) {
+  .App {
     display: block;
     justify-content: center;
     align-items: center;
   }
 }
 
-@media screen and (min-width:1201px){}
+@media screen and (min-width:1201px) {}

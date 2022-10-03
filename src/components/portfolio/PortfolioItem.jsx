@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Portfolio.module.css";
 import { motion } from "framer-motion";
+
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
 const PortfolioItem = ({ filterWork }) => {
-  
   return (
     <div className={styles.portfolioItem}>
       {filterWork.map((item) => {
@@ -18,7 +18,7 @@ const PortfolioItem = ({ filterWork }) => {
             className={styles.portfolioItem}
             key={item.id}
           >
-            <div >
+            <div>
               <img src={item.imgUrl} alt={item.title} />
               <ul>
                 <li>

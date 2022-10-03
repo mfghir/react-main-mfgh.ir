@@ -1,18 +1,20 @@
-.btns{
+.btns {
     display: flex;
     align-items: center;
     margin: 40px 0;
 }
 
-.btns div{
+.btns div {
     cursor: pointer;
     padding: 8px;
     margin-right: 5px;
-    color: #666666;
+    
+    /* color: #666666; */
+    color: var(--text-color);
     position: relative;
 }
 
-.btns div::after{
+.btns div::after {
     content: '';
     display: block;
     width: 50%;
@@ -20,8 +22,8 @@
     height: 2px;
     position: absolute;
     left: 50%;
-    
-    transform: translate(-50%,-50%) ;
+
+    transform: translate(-50%, -50%);
     transition: .4s;
     overflow: hidden;
 }
@@ -31,12 +33,12 @@
     color: #000000;
 } */
 
-.btns div:hover::after{
+.btns div:hover::after {
     width: 100%;
 }
 
 
-.activeBtn{
-    border-bottom: 2px solid #47a3da ; 
+.activeBtn {
+    border-bottom: 2px solid #47a3da;
     color: #000000;
-} 
+}

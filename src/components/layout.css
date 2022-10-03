@@ -1,4 +1,4 @@
-.layout{
+.layout {
     width: 100%;
     margin-top: 62px;
     padding: 10px;
@@ -9,16 +9,18 @@
 
     flex-direction: column;
     overflow: hidden;
-
 }
 
+.layout>div{
+    background: red;
+}
 
-.layoutLeft{
+.layoutLeft {
     width: 50%;
     height: 100%;
 }
 
-.layoutRight{
+.layoutRight {
     width: 65%;
     height: 100%;
     margin-left: 25%;
@@ -29,42 +31,43 @@
 
 
 
-@media screen and (max-width:767px){
-    .layout{
+@media screen and (max-width:767px) {
+    .layout {
         padding: 30px;
         margin: 62px;
     }
 
 }
 
-@media screen and (min-width:768px){
-    .layoutLeft{
+@media screen and (min-width:768px) {
+    .layoutLeft {
         padding: 50px;
         margin-top: 62px;
     }
 }
 
-@media screen and (min-width:993px){
-    .layout{
+@media screen and (min-width:993px) {
+    .layout {
         padding: 60px;
         margin-left: 25%;
         width: 60%;
         display: flex;
         justify-content: center;
-    }     
-    .layoutLeft{
+    }
+
+    .layoutLeft {
         padding: 50px;
         margin-top: 62px;
     }
 }
 
-@media screen and (min-width:1201px){
-    .layout{
-        width: 65%; 
-        margin-left: 5%; 
-     }
+@media screen and (min-width:1201px) {
+    .layout {
+        width: 65%;
+        margin-left: 5%;
+    }
 
-    .layoutRight{
+    .layoutRight {
         width: 65%;
     }
 

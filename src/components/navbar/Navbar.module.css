@@ -1,29 +1,46 @@
 ::-webkit-scrollbar {
     width: 6px;
 }
+
 /* Track */
-::-webkit-scrollbar-track { 
-    background: white; 
+::-webkit-scrollbar-track {
+    background: white;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background:  #47a3da ;
+    background: #47a3da;
     border-radius: 10px;
     transition: .4s;
 }
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #47a4daa9;
 }
 
+.theme {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    font-size: 22px;
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
 
 
-.nav{
-    background: #ffffff;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur(4px);
+.nav {
+    background: var(--bg-color-sec);
+    box-shadow: var(--box-shadow);
+    color: var(--p-color);
+
+
+    /* backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border-left: 2px solid silver;
+    border-left: 2px solid silver; */
 
     display: flex;
     justify-content: center;
@@ -48,24 +65,24 @@
 
 
 
-.profile{
+.profile {
     width: 100px;
     height: 100px;
     border: 2px solid #c0c0c0;
-    
+
     border-radius: 50%;
     margin-top: 120px;
 }
 
-.profile img{
+.profile img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.nav h2{
+.nav h2 {
     margin: 20px 0;
-    color: rgb(21, 21, 21);
+    /* color: #151515; */
     font-weight: 700;
 
     margin-bottom: 5px;
@@ -74,48 +91,53 @@
 
 
 
-.socials{
+.socials {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
 }
-.socials li{
+
+.socials li {
     margin: 0 10px;
 }
-.socials li a{
+
+.socials li a {
     display: block;
-    color: #252525;
+    /* color: #252525; */
+    color: var(--p-color);
     transition: .4s;
 }
-.socials li a:hover{
-    color: #47a3da ;
-}
 
-
-/* .isActive{
+.socials li a:hover {
     color: #47a3da;
-} */
-
+}
 
 
 
 /* .menu */
-.menu li{
+.menu li {
     margin: 20px 0;
 }
-.menu li a{
-    color: #151515;
+
+.menu li a {
+    color: var(--p-color);
+    /* color: #151515; */
+
     font-size: 16px;
     transition: .4s;
 }
-.menu li a:focus ,
-.menu li a:hover{
+
+.menu li a:hover {
     color: #47a3da;
 }
 
+.active {
+    color: #47a3da !important;
+}
 
-.btns{
+
+.btns {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -138,46 +160,53 @@
     transition: .4s;
 }
 
-.btns button:hover{
+.btns button:hover {
     border: 2px solid #c0c0c0;
 }
 
-.btns button:nth-of-type(1){
+.btns button:nth-of-type(1) {
     background-image: url('../../assets/icons/iran-flag.svg');
 }
-.btns button:nth-of-type(2){
+
+.btns button:nth-of-type(2) {
     background-image: url('../../assets/icons/usa-flag.svg');
 }
-.btns button:nth-of-type(3){
+
+.btns button:nth-of-type(3) {
     background-image: url('../../assets/icons/korea-flag.svg');
 }
 
 
 
 /* menu in mobile and Tablet */
-.menuTM{
-    width: 100% ;
-    height: 62px ;
+.menuTM {
+    width: 100%;
+    height: 62px;
     position: fixed;
 
     top: 0;
     right: 0;
     z-index: 20;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding: 0 15px;
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: var(--bg-color-sec);
+
     box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 15%);
 
 }
-
-.menuTM ul{
-  cursor: pointer;
+.menuTM img{
+border-radius: 50%;
 }
-.menuTM ul li{
+.menuTM ul {
+    cursor: pointer;
+}
+
+.menuTM ul li {
     width: 2rem;
     height: 0.25rem;
     border-radius: 10px;
@@ -186,7 +215,7 @@
     transition: all 0.3s linear;
     background: #47a3da;
 
-    margin-bottom: 4px ;
+    margin-bottom: 4px;
 }
 
 
@@ -197,17 +226,17 @@
 /* @media screen and (max-width:767px){} */
 /* @media screen and (min-width:768px){} */
 
-@media screen and (min-width:993px){
+@media screen and (min-width:993px) {
 
-    .menuTM{
+    .menuTM {
         display: none;
     }
 
-    .nav{
+    .nav {
         height: 100%;
     }
 
-    .profile{
+    .profile {
         width: 180px;
         height: 180px;
     }

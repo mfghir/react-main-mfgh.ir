@@ -9,6 +9,7 @@ import Contact from "./contact/Contact";
 import Resume from "./resume/Resume";
 import Home from "./home/Home";
 import Navbar from "./navbar/Navbar";
+
 import NotFound from "./notfound/NotFound";
 
 const Layout = ({ style, handleOnclick }) => {

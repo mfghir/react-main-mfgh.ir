@@ -1,21 +1,17 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { t } from "i18next";
 
 import { img } from "../../assets";
-import "./nav.css";
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
 
-import { ImCodepen } from "react-icons/im";
-import { ImLinkedin2 } from "react-icons/im";
-import { BsGithub } from "react-icons/bs";
-
-import { BsTelegram } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import { ImCodepen, ImLinkedin2 } from "react-icons/im";
+import { BsGithub, BsTelegram, BsInstagram } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
 
-import { motion } from "framer-motion";
+import "./nav.css";
+import DarkMood from "../../common/DarkMood";
 
 const Navbar = ({ handleOnclick, style, location }) => {
   const [open, setOpen] = useState(false);
@@ -64,6 +60,10 @@ const Navbar = ({ handleOnclick, style, location }) => {
               location.pathname === "/" ? "cssRight" : "cssLeft"
             }`}
           >
+            <button className={styles.theme}>
+              <DarkMood />
+            </button>
+
             <figure className={styles.profile}>
               <img src={img.avatar} alt="profile" />
             </figure>
@@ -105,6 +105,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
                   <BsGithub />
                 </a>
               </li>
+
               <li>
                 <a
                   href="https://codepen.io/miss_f_g/"
@@ -118,20 +119,20 @@ const Navbar = ({ handleOnclick, style, location }) => {
 
             <ul className={styles.menu}>
               <li>
-                <Link to="/">{t("home")}</Link>
+                <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : '')} >{t("home")}</NavLink>
               </li>
               <li>
-                <Link to="/aboutme">{t("aboutme")}</Link>
+                <NavLink to="/aboutme" className={({ isActive }) => (isActive ? styles.active : '')}>{t("aboutme")}</NavLink>
               </li>
 
               <li>
-                <Link to="/resume">{t("resume")}</Link>
+                <NavLink to="/resume" className={({ isActive }) => (isActive ? styles.active : '')} >{t("resume")}</NavLink>
               </li>
               <li>
-                <Link to="/portfolios">{t("portfolios")}</Link>
+                <NavLink to="/portfolios" className={({ isActive }) => (isActive ? styles.active : '')} >{t("portfolios")}</NavLink>
               </li>
               <li>
-                <Link to="/contact">{t("contact")}</Link>
+                <NavLink to="/contact" className={({ isActive }) => (isActive ? styles.active : '')} >{t("contact")}</NavLink>
               </li>
             </ul>
 
@@ -148,6 +149,11 @@ const Navbar = ({ handleOnclick, style, location }) => {
             location={location.pathname}
             className={styles.nav}
           >
+
+<button className={styles.theme}>
+              <DarkMood />
+            </button>
+
             <figure className={styles.profile}>
               <img src={img.avatar} alt="profile" />
             </figure>
@@ -202,20 +208,20 @@ const Navbar = ({ handleOnclick, style, location }) => {
 
             <ul className={styles.menu}>
               <li>
-                <Link to="/">{t("home")}</Link>
+                <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : '')} >{t("home")}</NavLink>
               </li>
               <li>
-                <Link to="/aboutme">{t("aboutme")}</Link>
+                <NavLink to="/aboutme" className={({ isActive }) => (isActive ? styles.active : '')} >{t("aboutme")}</NavLink>
               </li>
 
               <li>
-                <Link to="/resume">{t("resume")}</Link>
+                <Link to="/resume" className={({ isActive }) => (isActive ? styles.active : '')}>{t("resume")}</Link>
               </li>
               <li>
-                <Link to="/portfolios">{t("portfolios")}</Link>
+                <Link to="/portfolios" className={({ isActive }) => (isActive ? styles.active : '')}>{t("portfolios")}</Link>
               </li>
               <li>
-                <Link to="/contact">{t("contact")}</Link>
+                <Link to="/contact" className={({ isActive }) => (isActive ? styles.active : '')}>{t("contact")}</Link>
               </li>
             </ul>
 

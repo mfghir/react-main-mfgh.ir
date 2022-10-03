@@ -1,0 +1,13 @@
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .toggle > * {
+    cursor: pointer;
+  }
+  
+  path {
+    cursor: pointer;
+  }

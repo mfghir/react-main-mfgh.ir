@@ -1,34 +1,40 @@
-.resume{
+.resume {
     width: 90%;
     height: 100%;
-    background: rgb(255, 255, 255);
-    
+
+    background: var(--bg-color-sec);
+    box-shadow: var(--box-shadow-sec);
+
     padding: 20px;
     border-radius: 5px;
     margin: 5%;
     margin-top: 15%;
 }
-.resume h1{
-    color: #222222;
+
+.resume h1 {
+    color: var(--h1-color);
+
     padding-bottom: 25px;
     line-height: 1;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid var(--border-color);
 }
 
-.resume section{
+.resume section {
     margin: 30px 0;
 }
 
 
-.languages h4 ,
-.education h4{
+.languages h4,
+.education h4 {
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
-    color: #252525;
+
+    color: var(--h4-color);
 }
-.languages img ,
-.education img{
+
+.languages img,
+.education img {
     width: 20%;
     margin: 10px 0;
 }
@@ -37,82 +43,86 @@
 
 
 .education ul,
-.languages ul{
-    border-left: 1px solid #47a3da ;
+.languages ul {
+    border-left: 1px solid #47a3da;
 }
 
-.education ul li ,
-.languages ul li{
+.education ul li,
+.languages ul li {
     margin: 30px 0;
     display: flex;
     flex-direction: column;
+
     padding-left: 16px;
     position: relative;
 }
-.education ul li::after ,
-.languages ul li::after{
+
+.education ul li::after,
+.languages ul li::after {
     content: '';
     display: block;
     position: absolute;
+
     top: 11px;
     left: -5px;
     width: 9px;
+
     height: 9px;
     border-radius: 50%;
     background: #47a3da;
 }
 
 .education ul li span,
-.languages ul li span{
+.languages ul li span {
     font-size: 14px;
     font-weight: 500;
-    color: #00000080;
     letter-spacing: 0.5px;
+
+    color: var(--span-color);
 }
 
 
-.education ul li strong ,
-.languages ul li strong{
-    margin-top: 8px ;
-    color: #222222;
-    font-size: 17px
+.education ul li strong,
+.languages ul li strong {
+    margin-top: 8px;
+    font-size: 17px;
+    color: var(--strong-color);
 }
 
 .education ul li p,
-.languages ul li p{
+.languages ul li p {
     margin-top: 10px;
     line-height: 30px;
-    color: #111111;
+    color: var(--p-color);
 }
 
 
 
 
 
-@media screen and (max-width:767px){}
+@media screen and (max-width:767px) {}
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {}
 
-}
-
-@media screen and (min-width:993px){
+@media screen and (min-width:993px) {
     .resume {
         width: 70%;
         margin: 5% 5% 5% 27%;
     }
-    .secs{
+
+    .secs {
         display: flex;
         justify-content: space-between;
     }
-    .secs section{
+
+    .secs section {
         width: 45%;
         margin-top: 60px;
     }
 }
 
-@media screen and (min-width:1201px){
-    .resume{
+@media screen and (min-width:1201px) {
+    .resume {
         width: 60%;
     }
 }
-

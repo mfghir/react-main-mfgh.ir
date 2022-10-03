@@ -1,25 +1,32 @@
-.portfolio{
+.portfolio {
     width: 90%;
     height: 100%;
-    background: white;
+
+    background: var(--bg-color-sec);
+      box-shadow: var(--box-shadow-sec);
+
 
     padding: 30px 10px;
     border-radius: 5px;
     margin: 5%;
+
     margin-top: 15%;
 }
-.portfolio h1{
-    color: #222222;
+
+.portfolio h1 {
+    color: var(--h1-color);
+
+
     padding-bottom: 25px;
     line-height: 1;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid var(--border-color);
 }
 
 
 
 
 
-.portfolioItem{
+.portfolioItem {
     width: 100%;
     height: 100%;
     display: flex;
@@ -27,7 +34,7 @@
     flex-wrap: wrap;
 }
 
-.portfolioItem div{
+.portfolioItem div {
     width: 100%;
     margin: 20px 0;
     position: relative;
@@ -39,81 +46,90 @@
 
 }
 
-.portfolioItem div div{
+.portfolioItem div div {
     width: 100%;
     height: 100%;
 }
 
-.portfolioItem div div img{
+.portfolioItem div div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: .4s;
 }
-.portfolioItem div:hover img{
+
+.portfolioItem div:hover img {
     transform: scale(1.2);
 }
 
-.portfolioItem div ul{
+.portfolioItem div ul {
     width: 100%;
     height: 100%;
+    position: absolute;
+
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     align-content: center;
 
     flex-wrap: wrap;
-    transition: .4s;
-    position: absolute;
     left: 0;
     top: 0;
+
+    transition: .4s;
 }
-.portfolioItem div:hover ul{
+
+.portfolioItem div:hover ul {
     background: rgba(0, 0, 0, 0.5);
 
 }
 
 
-.portfolioItem div ul li{
+.portfolioItem div ul li {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    font-size: 20px;    
+
+    font-size: 20px;
     margin-top: 100%;
     transition: ease-in-out .5s;
 }
-.portfolioItem div:hover ul li{
+
+.portfolioItem div:hover ul li {
     margin-top: 0;
 }
 
-.portfolioItem div ul li a{
+.portfolioItem div ul li a {
     color: #fff;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 50%;
+    background-color: #00000080;
     transition: .4s;
+
     display: none;
 }
 
-.portfolioItem div ul li a:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+.portfolioItem div ul li a:hover {
+    background-color: #ffffff80;
     color: #000000;
 
 }
 
-.portfolioItem div:hover ul li a{
+.portfolioItem div:hover ul li a {
     display: flex;
 }
 
 
-.portfolioItem div ul  p{
-    width: 100% ;
+.portfolioItem div ul p {
+    width: 100%;
     text-align: center;
     color: #47a3da;
+
     margin-top: 15px;
 }
 
@@ -128,9 +144,9 @@
 
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
-    .portfolio{
+    .portfolio {
         width: 85%;
         margin: 7.5%;
         margin-top: 15%;
@@ -138,24 +154,23 @@
 
     }
 
-    .portfolioItem div{
+    .portfolioItem div {
         width: 48%;
         flex-direction: none;
     }
 
 }
 
-@media screen and (min-width:993px){
+@media screen and (min-width:993px) {
     .portfolio {
         width: 70%;
-        margin: 5% 5%  5% 27%;
+        margin: 5% 5% 5% 27%;
 
     }
 }
 
-@media screen and (min-width:1201px){
-    .portfolio{
+@media screen and (min-width:1201px) {
+    .portfolio {
         width: 60%;
     }
 }
-

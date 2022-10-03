@@ -1,18 +1,24 @@
-.contact{
+.contact {
     width: 90%;
     height: 100%;
-    background: white;
-    
+    /* background: white; */
+    background: var(--bg-color-sec);
+    box-shadow: var(--box-shadow-sec);
+
+
     padding: 20px;
     border-radius: 5px;
     margin: 5%;
     margin-top: 15%;
 }
-.contact h1{
-    color: #222222;
+
+.contact h1 {
+    color: var(--h1-color);
+
+
     padding-bottom: 25px;
     line-height: 1;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid var(--border-color);
 }
 
 /* .contactSec div */
@@ -24,21 +30,24 @@
     line-height: 28px;
 } */
 
-.contactSec h4{
+.contactSec h4 {
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
-    color: rgb(37, 37, 37);
+
+    /* color: #252525; */
+    color: var(--h4-color);
+  
     margin-top: 20px;
 }
 
-.contactSec img{
+.contactSec img {
     width: 15%;
     margin: 10px 0;
 }
 
 
-.contactDiv{
+.contactDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +58,14 @@
 
 
 /* findeMe & mailMe */
-.fm{
+.fm {
     /* background: green; */
     height: 100%;
     width: 100%;
     text-align: center;
 }
-.fm div{
+
+.fm div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,23 +74,27 @@
     margin: 30px 0;
 }
 
-.fm div span{
+.fm div span {
     font-size: 16px;
     font-weight: 500;
-    color: #151515;
     margin-top: 10px;
 
+    /* color: #151515; */
+    color: var(--span-color);
 }
 
-.fm div p{
-    color: #666;
+.fm div p {
+    /* color: #666; */
+    color: var(--p-color);
+
+    
     line-height: 1.2;
     margin-top: 10px;
     font-size: 15px;
     width: 100%;
 }
 
-.fm div svg{
+.fm div svg {
     color: #47a3da;
     font-size: 33px;
 }
@@ -91,33 +105,33 @@
 }
 
 @keyframes myAnim {
-	0% {
-		transform: scale3d(1, 1, 1);
-	}
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
 
-	30% {
-		transform: scale3d(1.25, 0.75, 1);
-	}
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
 
-	40% {
-		transform: scale3d(0.75, 1.25, 1);
-	}
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
 
-	50% {
-		transform: scale3d(1.15, 0.85, 1);
-	}
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
 
-	65% {
-		transform: scale3d(0.95, 1.05, 1);
-	}
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
 
-	75% {
-		transform: scale3d(1.05, 0.95, 1);
-	}
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
 
-	100% {
-		transform: scale3d(1, 1, 1);
-	}
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 
@@ -125,7 +139,7 @@
 
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     /* .contact {
         width: 85%;
         margin: 7.5%;
@@ -133,32 +147,34 @@
     } */
 }
 
-@media screen and (min-width:993px){
+@media screen and (min-width:993px) {
 
     .contact {
         width: 70%;
-        margin: 5% 5%  5% 27%;
+        margin: 5% 5% 5% 27%;
     }
 
-    .contactDiv{
+    .contactDiv {
         flex-direction: unset;
     }
-    .contactDiv p{
+
+    .contactDiv p {
         width: 50%;
     }
-    .fm{
+
+    .fm {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .fm div{
+    .fm div {
         margin: 50px;
     }
 
 }
 
-@media screen and (min-width:1201px){
+@media screen and (min-width:1201px) {
     .contact {
         width: 60%;
     }

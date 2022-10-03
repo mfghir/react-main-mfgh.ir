@@ -1,9 +1,14 @@
 .nav{
-    background: #ffffff;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-left: 2px solid silver;
+    /* background: #ffffff; */
+  background:  var(--bg-color-sec);
+  box-shadow: var(--box-shadow-sec);
+
+  color: var(--p-color);
+  
+
+    /* backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); */
+    /* border-left: 2px solid silver; */
 
     display: flex;
     justify-content: center;
@@ -35,6 +40,8 @@
     top: 0;
     left: 0;
 }
+
+
 
 /* .animRight{
     animation: animRight 1s ease 0s 1 normal forwards;
