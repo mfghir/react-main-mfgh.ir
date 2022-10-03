@@ -24,6 +24,7 @@ const AboutMe = ({ location }) => {
           <section className={styles.skills}>
             <h4>{t("mySkills")}</h4>
             <img src={img.zigzag} alt="zigzag" />
+
             <div>
               <span>HTML</span>
               <ul>

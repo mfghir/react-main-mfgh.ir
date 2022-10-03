@@ -30,7 +30,9 @@
 
     cursor: pointer;
 }
-
+.theme svg{
+    color: var(--p-color);
+}
 
 .nav {
     background: var(--bg-color-sec);

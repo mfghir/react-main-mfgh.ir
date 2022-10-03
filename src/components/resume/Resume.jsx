@@ -1,8 +1,8 @@
-import { t } from "i18next";
 import React from "react";
+import { t } from "i18next";
 import { img } from "../../assets";
-import styles from "./Resume.module.css";
 
+import styles from "./Resume.module.css";
 import { motion } from "framer-motion";
 
 const Resume = () => {

@@ -1,5 +1,4 @@
 import React from "react";
-import "./DarkMood.css";
 import { BsMoon, BsSun } from "react-icons/bs";
 import { useState, useEffect } from "react";
 
@@ -38,15 +37,13 @@ const DarkMood = () => {
   };
 
   return (
-    // <span onClick={checkTheme}>
-      <div className="toggle" onClick={checkTheme}>
-        {theme === "light" ? (
-          <BsMoon style={{ cursor: "pointer" }} />
-        ) : (
-          <BsSun style={{ cursor: "pointer" }} />
-        )}
-      </div>
-    // </span>
+    <div onClick={checkTheme}>
+      {theme === "light" ? (
+        <BsMoon style={{ cursor: "pointer" }} />
+      ) : (
+        <BsSun style={{ cursor: "pointer" }} />
+      )}
+    </div>
   );
 };
 

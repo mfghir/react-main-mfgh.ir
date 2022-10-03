@@ -1,21 +1,21 @@
 .resume {
     width: 90%;
     height: 100%;
+    border-radius: 5px;
 
     background: var(--bg-color-sec);
     box-shadow: var(--box-shadow-sec);
 
     padding: 20px;
-    border-radius: 5px;
     margin: 5%;
     margin-top: 15%;
 }
 
 .resume h1 {
-    color: var(--h1-color);
-
     padding-bottom: 25px;
     line-height: 1;
+    color: var(--h1-color);
+
     border-bottom: 2px solid var(--border-color);
 }
 
@@ -100,9 +100,9 @@
 
 
 
-@media screen and (max-width:767px) {}
+/* @media screen and (max-width:767px) {} */
 
-@media screen and (min-width:768px) {}
+/* @media screen and (min-width:768px) {} */
 
 @media screen and (min-width:993px) {
     .resume {

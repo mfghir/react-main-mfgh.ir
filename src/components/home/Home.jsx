@@ -2,9 +2,9 @@ import React from "react";
 import { img } from "../../assets";
 import styles from "./home.module.css";
 
+import { t } from "i18next";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
-import { t } from "i18next";
 
 const Home = () => {
   return (

@@ -8,7 +8,7 @@
     cursor: pointer;
     padding: 8px;
     margin-right: 5px;
-    
+
     /* color: #666666; */
     color: var(--text-color);
     position: relative;
@@ -28,10 +28,6 @@
     overflow: hidden;
 }
 
-/* .btns button:focus {
-    border-bottom: 2px solid #47a3da; 
-    color: #000000;
-} */
 
 .btns div:hover::after {
     width: 100%;

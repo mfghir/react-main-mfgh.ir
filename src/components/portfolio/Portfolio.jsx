@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import styles from "./Portfolio.module.css";
-
 import { t } from "i18next";
+
 import { motion } from "framer-motion";
 import { PortfoliosData } from "../../data/PortfoliosData";
-
 import FilterBtn from "./FilterBtn";
+
 import PortfolioItem from "./PortfolioItem";
 
 const Portfolio = () => {

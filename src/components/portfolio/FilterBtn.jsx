@@ -19,7 +19,6 @@ const FilterBtn = ({ setActiveFilter, activeFilter, setFilterWork, works }) => {
           key={index}
           onClick={() => setActiveFilter(item)}
           className={` ${activeFilter === item ? "activeBtn" : ""}`}
-          // className={activeFilter === item && <motion.div layoutId="underline" /> }
         >
           {item}
         </motion.div>

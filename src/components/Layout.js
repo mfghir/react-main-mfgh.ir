@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { useLocation } from "react-router";
+import { Navigate, useLocation } from "react-router";
 
 import Portfolio from "./portfolio/Portfolio";
 import AboutMe from "./aboutme/AboutMe";
@@ -10,7 +10,6 @@ import Resume from "./resume/Resume";
 import Home from "./home/Home";
 import Navbar from "./navbar/Navbar";
 
-import NotFound from "./notfound/NotFound";
 
 const Layout = ({ style, handleOnclick }) => {
   const location = useLocation();
@@ -25,9 +24,7 @@ const Layout = ({ style, handleOnclick }) => {
       />
 
       <div
-        className={`layout ${
-          location.pathname === "/" ? "layoutRight" : "layoutLeft"
-        }`}
+        className={`layout ${location.pathname === "/" ? "layoutRight" : "layoutLeft"}`}
         style={style}
       >
         <Routes location={location} key={location.pathname}>
@@ -36,7 +33,7 @@ const Layout = ({ style, handleOnclick }) => {
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolios" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={ <Navigate to="/" replace />} />
         </Routes>
       </div>
     </>
