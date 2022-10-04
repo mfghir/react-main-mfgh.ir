@@ -1,14 +1,9 @@
 .portfolio {
-    width: 90%;
+    min-height: 100vh;
     height: 100%;
-    border-radius: 5px;
+    /* padding: 30px 10px; */
 
     background: var(--bg-color-sec);
-    box-shadow: var(--box-shadow-sec);
-    padding: 30px 10px;
-
-    margin: 5%;
-    margin-top: 15%;
 }
 
 .portfolio h1 {
@@ -42,7 +37,6 @@
 
     border-radius: 10px;
     height: 250px;
-
 }
 
 .portfolioItem div div {
@@ -80,7 +74,6 @@
 
 .portfolioItem div:hover ul {
     background: rgba(0, 0, 0, 0.5);
-
 }
 
 
@@ -145,32 +138,12 @@
 
 
 @media screen and (min-width:768px) {
-
-    .portfolio {
-        width: 85%;
-        margin: 7.5%;
-        margin-top: 15%;
-        padding: 50px 40px;
-
-    }
-
     .portfolioItem div {
         width: 48%;
         flex-direction: none;
     }
-
 }
 
-@media screen and (min-width:993px) {
-    .portfolio {
-        width: 70%;
-        margin: 5% 5% 5% 27%;
+/* @media screen and (min-width:993px) {} */
 
-    }
-}
-
-@media screen and (min-width:1201px) {
-    .portfolio {
-        width: 60%;
-    }
-}
+/* @media screen and (min-width:1201px) {} */

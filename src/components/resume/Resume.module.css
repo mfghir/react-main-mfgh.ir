@@ -1,14 +1,9 @@
 .resume {
-    width: 90%;
     height: 100%;
-    border-radius: 5px;
+    min-height: 100vh;
+    /* padding: 20px; */
 
     background: var(--bg-color-sec);
-    box-shadow: var(--box-shadow-sec);
-
-    padding: 20px;
-    margin: 5%;
-    margin-top: 15%;
 }
 
 .resume h1 {
@@ -102,14 +97,13 @@
 
 /* @media screen and (max-width:767px) {} */
 
-/* @media screen and (min-width:768px) {} */
+@media screen and (min-width:768px) {
+    .resume {
+        width: 100%;
+    }
+}
 
 @media screen and (min-width:993px) {
-    .resume {
-        width: 70%;
-        margin: 5% 5% 5% 27%;
-    }
-
     .secs {
         display: flex;
         justify-content: space-between;
@@ -121,8 +115,4 @@
     }
 }
 
-@media screen and (min-width:1201px) {
-    .resume {
-        width: 60%;
-    }
-}
+/* @media screen and (min-width:1201px) {} */

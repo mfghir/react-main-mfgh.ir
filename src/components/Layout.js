@@ -10,12 +10,14 @@ import Resume from "./resume/Resume";
 import Home from "./home/Home";
 import Navbar from "./navbar/Navbar";
 
+import "./layout.css"
+import GoTopButton from "../common/GoTopButton";
 
 const Layout = ({ style, handleOnclick }) => {
   const location = useLocation();
 
   return (
-    <>
+    <section className="layout-container">
       <Navbar
         handleOnclick={handleOnclick}
         style={style}
@@ -24,19 +26,22 @@ const Layout = ({ style, handleOnclick }) => {
       />
 
       <div
-        className={`layout ${location.pathname === "/" ? "layoutRight" : "layoutLeft"}`}
+        className={`layout ${
+          location.pathname === "/" ? "layoutRight" : "layoutLeft"
+        }`}
         style={style}
       >
+        <GoTopButton/>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolios" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={ <Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
-    </>
+    </section>
   );
 };
 

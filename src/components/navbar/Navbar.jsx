@@ -119,20 +119,45 @@ const Navbar = ({ handleOnclick, style, location }) => {
 
             <ul className={styles.menu}>
               <li>
-                <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : '')} >{t("home")}</NavLink>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("home")}
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/aboutme" className={({ isActive }) => (isActive ? styles.active : '')}>{t("aboutme")}</NavLink>
+                <NavLink
+                  to="/aboutme"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("aboutme")}
+                </NavLink>
               </li>
 
               <li>
-                <NavLink to="/resume" className={({ isActive }) => (isActive ? styles.active : '')} >{t("resume")}</NavLink>
+                <NavLink
+                  to="/resume"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("resume")}
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/portfolios" className={({ isActive }) => (isActive ? styles.active : '')} >{t("portfolios")}</NavLink>
+                <NavLink
+                  to="/portfolios"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("portfolios")}
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/contact" className={({ isActive }) => (isActive ? styles.active : '')} >{t("contact")}</NavLink>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("contact")}
+                </NavLink>
               </li>
             </ul>
 
@@ -149,8 +174,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
             location={location.pathname}
             className={styles.nav}
           >
-
-<button className={styles.theme}>
+            <button className={styles.theme}>
               <DarkMood />
             </button>
 
@@ -208,20 +232,45 @@ const Navbar = ({ handleOnclick, style, location }) => {
 
             <ul className={styles.menu}>
               <li>
-                <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : '')} >{t("home")}</NavLink>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("home")}
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/aboutme" className={({ isActive }) => (isActive ? styles.active : '')} >{t("aboutme")}</NavLink>
+                <NavLink
+                  to="/aboutme"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("aboutme")}
+                </NavLink>
               </li>
 
               <li>
-                <Link to="/resume" className={({ isActive }) => (isActive ? styles.active : '')}>{t("resume")}</Link>
+                <Link
+                  to="/resume"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("resume")}
+                </Link>
               </li>
               <li>
-                <Link to="/portfolios" className={({ isActive }) => (isActive ? styles.active : '')}>{t("portfolios")}</Link>
+                <Link
+                  to="/portfolios"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("portfolios")}
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className={({ isActive }) => (isActive ? styles.active : '')}>{t("contact")}</Link>
+                <Link
+                  to="/contact"
+                  className={({ isActive }) => (isActive ? styles.active : "")}
+                >
+                  {t("contact")}
+                </Link>
               </li>
             </ul>
 

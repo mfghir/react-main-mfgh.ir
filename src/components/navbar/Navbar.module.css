@@ -56,7 +56,7 @@
 
     text-align: center;
     padding: 50px 10px;
-    width: 300px;
+    width: 250px;
 
     height: calc(100vh - 62px);
     overflow: auto;
@@ -198,7 +198,7 @@
     /* background: #ffffff; */
     background: var(--bg-color-sec);
 
-    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 15%);
+    box-shadow: var(--box-shadow-menuTM);
 
 }
 .menuTM img{

@@ -1,14 +1,8 @@
 .contact {
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 20px;
 
     background: var(--bg-color-sec);
-    box-shadow: var(--box-shadow-sec);
-    border-radius: 5px;
-
-    margin: 5%;
-    margin-top: 15%;
 }
 
 .contact h1 {
@@ -19,14 +13,9 @@
     border-bottom: 2px solid var(--border-color);
 }
 
-/* .contactSec div */
 
-/* .contactSec div p{
-    margin: 10px 0 20px 0;
-    color: #111;
-    font-size: 15px;
-    line-height: 28px;
-} */
+
+/* .contactSec div */
 
 .contactSec h4 {
     text-transform: uppercase;
@@ -43,7 +32,6 @@
     margin: 10px 0;
 }
 
-
 .contactDiv {
     display: flex;
     justify-content: center;
@@ -51,6 +39,10 @@
 
     flex-direction: column;
     margin: 10px 0;
+}
+
+.contactDiv div {
+    flex-wrap: wrap;
 }
 
 
@@ -135,22 +127,22 @@
 
 
 
-/* @media screen and (min-width:768px) {} */
-
-@media screen and (min-width:993px) {
-
+@media screen and (min-width:768px) {
     .contact {
-        width: 70%;
-        margin: 5% 5% 5% 27%;
+        width: 100%;
     }
 
+    .contactDiv div {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width:993px) {
     .contactDiv {
         flex-direction: unset;
     }
 
-    .contactDiv p {
-        width: 50%;
-    }
 
     .fm {
         display: flex;
@@ -164,8 +156,4 @@
 
 }
 
-@media screen and (min-width:1201px) {
-    .contact {
-        width: 60%;
-    }
-}
+/* @media screen and (min-width:1201px) {} */

@@ -1,7 +1,21 @@
+.layout-container {
+    /* background: pink;
+height: 100%; */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .layout {
-    width: 100%;
-    margin-top: 62px;
-    padding: 10px;
+    width: 90%;
+    margin: 25% 0;
+    border-radius: 7px;
+
+    box-shadow: var(--box-shadow-sec);
+    background: var(--bg-color-sec);
+    padding: 20px;
 
     display: flex;
     justify-content: center;
@@ -11,19 +25,18 @@
     overflow: hidden;
 }
 
-.layout>div{
-    background: red;
-}
 
 .layoutLeft {
-    width: 50%;
-    height: 100%;
+    /* width: 50%;
+    height: 100%; */
+    /* width: 100%; */
 }
 
 .layoutRight {
-    width: 65%;
+    /* width: 65%;
     height: 100%;
-    margin-left: 25%;
+    margin-left: 25%; */
+    width: 100%;
 }
 
 
@@ -31,44 +44,16 @@
 
 
 
-@media screen and (max-width:767px) {
-    .layout {
-        padding: 30px;
-        margin: 62px;
-    }
+/* @media screen and (max-width:767px) {} */
 
-}
-
-@media screen and (min-width:768px) {
-    .layoutLeft {
-        padding: 50px;
-        margin-top: 62px;
-    }
-}
+/* @media screen and (min-width:768px) {} */
 
 @media screen and (min-width:993px) {
     .layout {
-        padding: 60px;
-        margin-left: 25%;
         width: 60%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .layoutLeft {
+        margin: 10% 0 10% 20%;
         padding: 50px;
-        margin-top: 62px;
     }
 }
 
-@media screen and (min-width:1201px) {
-    .layout {
-        width: 65%;
-        margin-left: 5%;
-    }
-
-    .layoutRight {
-        width: 65%;
-    }
-
-}
+/* @media screen and (min-width:1201px) {} */

@@ -1,0 +1,65 @@
+.goTopHidden {
+    opacity: 0;
+    display: none;
+    animation: slide-down 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.goTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    background: rgba(252, 248, 241, 0.8);
+    /* box-shadow: 2px 2px 5px gray; */
+
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+
+    
+    outline: none;
+    border: none;
+    font-size: 22px;
+    
+    right: 3%;
+    cursor: pointer;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    transition: .4s;
+    z-index: 99;
+}
+
+.goTop:hover {
+    color: #fcf8f1cc;
+    background: #808080;
+}
+
+
+
+
+
+
+@keyframes slide-top {
+    0% {
+        opacity: 0;
+        bottom: -2%;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 5%;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 1;
+        bottom: 5%;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -2%;
+    }
+}
