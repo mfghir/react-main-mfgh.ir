@@ -24,15 +24,15 @@ const Resume = () => {
 
           <ul>
             <li>
-              <span>{t("educationYear")}</span>
-              <strong>{t("educationTitle")}</strong>
-              <p>{t("educationText")}</p>
-            </li>
-
-            <li>
               <span>{t("educationYearTwo")}</span>
               <strong>{t("educationTitleTwo")}</strong>
               <p>{t("educationTextTwo")}</p>
+            </li>
+            
+            <li>
+              <span>{t("educationYear")}</span>
+              <strong>{t("educationTitle")}</strong>
+              <p>{t("educationText")}</p>
             </li>
           </ul>
         </section>
@@ -43,16 +43,16 @@ const Resume = () => {
 
           <ul>
             <li>
+              <span>{t("experienceYearTwo")}</span>
+              <strong>{t("experienceTitleTwo")}</strong>
+              <p>{t("experienceTextTwo")}</p>
+            </li>
+            <li>
               <span>{t("experienceYear")}</span>
               <strong>{t("experienceTitle")}</strong>
               <p>{t("experienceText")}</p>
             </li>
 
-            <li>
-              <span>{t("experienceYearTwo")}</span>
-              <strong>{t("experienceTitleTwo")}</strong>
-              <p>{t("experienceTextTwo")}</p>
-            </li>
 
             <li>
               <span>{t("experienceYearThree")}</span>

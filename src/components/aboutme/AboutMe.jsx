@@ -4,7 +4,7 @@ import styles from "./AboutMe.module.css";
 
 import { motion } from "framer-motion";
 
-const AboutMe = ({ location }) => {
+const AboutMe = () => {
   return (
     <motion.div
       layout
@@ -15,10 +15,7 @@ const AboutMe = ({ location }) => {
     >
       <section className={styles.aboutme}>
         <img src={img.aboutme} alt="aboutme" />
-
-        <p>
-          {t("aboutmeTwo")} {console.log(location)}{" "}
-        </p>
+        <p>{t("aboutmeTwo")}</p>
 
         <div className={styles.sl}>
           <section className={styles.skills}>

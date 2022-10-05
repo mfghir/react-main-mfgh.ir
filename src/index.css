@@ -5,7 +5,9 @@
   list-style-type: none;
   text-decoration: none;
 }
-
+#root{
+  white-space: pre-line;
+}
 
 :root {
   --bg-color: #ecf0f1;

@@ -15,8 +15,8 @@ export const TRANSLATIONS_KO = {
   email: "이메일",
 
   aboutmeTwo:
-  "저는 24세이며 테헤란에 거주하는 웹 개발자입니다. 대학에서 보험경영학을 전공했지만 이 분야에 대한 관심으로 인해 사이트 디자인을 배우기로 결정했습니다. 저는 사이트 디자인 분야에서 배우고 발전하는 데 관심이 있습니다. 저도 이제 막 UI 디자인을 배우기 시작했고 곧 이 분야에서 좋은 수준에 도달할 수 있기를 바랍니다.",
-  mySkills: "내 기술",
+    "저는 테헤란에 거주하는 웹 디자이너이며 웹 디자이너로 일할 자리를 찾고 있습니다. 저는 조직적이고 책임감 있고 헌신적인 사람이며 South Tehran Azad University를 졸업했습니다. ICDL, Web Developer 및 React/Redux와 같은 과정도 이수했습니다. 저는 현재 사용자 인터페이스 디자인을 공부하고 있습니다.",
+  mySkills: "기술",
   languages: "언어",
   farsi: "파르시",
   english: "영어",
@@ -29,15 +29,17 @@ export const TRANSLATIONS_KO = {
   educationText: "Azad University의 South Tehran Branch, 관리 부서, 보험 관리",
   educationYearTwo: "2014 - 2016",
   educationTitleTwo: "고등학교",
-  educationTextTwo: "나는 고등학교에서 실험과학을 공부했다.",
+  educationTextTwo: "실험과학",
 
   experience: "경험",
   experienceYear: "2019 - 2022",
   experienceTitle: "웹 개발자",
-  experienceText: "1998년 테헤란 기술 단지에서 배우기 시작했습니다.",
+  experienceText:
+    "2019년 테헤란 테크니컬 콤플렉스에서 웹사이트 디자인에 관심을 갖게 되어 배우기로 결정했습니다.",
   experienceYearTwo: "2018",
   experienceTitleTwo: "ICDL",
-  experienceTextTwo: "나는 여름에 이 기술을 배우기 시작했다.",
+  experienceTextTwo:
+    "2018년 여름, 두 달 동안 테헤란 테크니컬 콤플렉스에서 이 기술을 배우기 시작했습니다.",
   experienceYearThree: "2022",
   experienceTitleThree: "UI",
   experienceTextThree: "나는 이것에 대해 배우기 시작했다.",
@@ -50,6 +52,5 @@ export const TRANSLATIONS_KO = {
   teharnIran: "테헤란,이란",
   mailMe: "나에게 메일 보내세요",
   emailTwo: "fatemeghafari77[@]gmail.com",
-  callMe:"전화해요",
-
+  callMe: "전화해요",
 };
