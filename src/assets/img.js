@@ -38,6 +38,8 @@ import js10 from "./img/js10.PNG";
 import js11 from "./img/js11.PNG";
 import js12 from "./img/js12.PNG";
 import js13 from "./img/js13.PNG";
+import js14 from "./img/js14.PNG";
+import js15 from "./img/js15.PNG";
 
 // --------- react
 import react1 from "./img/react1.PNG"
@@ -92,6 +94,8 @@ export default {
   js11,
   js12,
   js13,
+  js14,
+  js15,
 
   
   // react,
