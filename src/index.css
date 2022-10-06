@@ -5,7 +5,8 @@
   list-style-type: none;
   text-decoration: none;
 }
-#root{
+
+#root {
   white-space: pre-line;
 }
 
@@ -13,16 +14,16 @@
   --bg-color: #ecf0f1;
   --bg-color-sec: #ffffff;
   --box-shadow-sec: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  --box-shadow-menuTM: 0px 10px 15px -3px rgb(0 0 0 / 15%);
 
+  --box-shadow-menuTM: 0px 10px 15px -3px rgb(0 0 0 / 15%);
   --h1-color: #222222;
   --h4-color: #252525;
-  --span-color: #000000;
 
+  --span-color: #000000;
   --strong-color: #222222;
   --p-color: #111111;
-  --border-color: #00000014;
 
+  --border-color: #00000014;
   --text-color: #666666;
 }
 
@@ -31,16 +32,16 @@
   --bg-color: #282121;
   --bg-color-sec: #282121;
   --box-shadow-sec: 0 10px 30px 0 rgb(185 185 185 / 15%);
-  --box-shadow-menuTM: 0px 10px 15px -3px rgba(145, 145, 145, 0.15);
 
+  --box-shadow-menuTM: 0px 10px 15px -3px rgba(145, 145, 145, 0.15);
   --h1-color: #ffffff;
   --h4-color: #ffffff;
-  --span-color: #ffffff;
 
+  --span-color: #ffffff;
   --strong-color: #ffffff;
   --p-color: #ffffff;
-  --border-color: #4a4a4a;
 
+  --border-color: #4a4a4a;
   --text-color: #e2e2e2;
 
 }
@@ -56,10 +57,10 @@ body {
 
 
 
-@media screen and (max-width:767px) {}
+/* @media screen and (max-width:767px) {}
 
 @media screen and (min-width:768px) {}
 
 @media screen and (min-width:993px) {}
 
-@media screen and (min-width:1201px) {}
+@media screen and (min-width:1201px) {} */

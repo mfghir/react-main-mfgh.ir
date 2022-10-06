@@ -13,7 +13,6 @@ export const TRANSLATIONS_EN = {
   address: "Address",
   addressA: "Iran, Tehran",
   email: "E-mail",
-  // emailA: "fatemeghafari77[@]gmail.com",
 
   aboutmeTwo:"I'm a web designer living in Tehran and I am looking for a job position as a web designer. I'm an organized, responsible, committed person and a graduate of South Tehran Azad University. I have also completed courses such as ICDL, Web Developer and React/Redux. I am currently studying user interface design.",
   mySkills: "skills",
@@ -44,8 +43,6 @@ export const TRANSLATIONS_EN = {
 
   contactTwo: "Contact",
   getInTouch: "Get In Touch",
-  // getInTouchText:
-  //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsum voluptas quasi minima ullam tenetur,",
   findMe: "Find Me",
   teharnIran: "Teharn, Iran",
   mailMe: "Mail Me",

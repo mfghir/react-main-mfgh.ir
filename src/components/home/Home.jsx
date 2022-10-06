@@ -24,7 +24,7 @@ const Home = () => {
             typewriter.pauseFor(2500).deleteAll().start();
           }}
           options={{
-            strings: ["Web Developer", "Front-end"],
+            strings: ["Web Developer", "Front-end","UI Designer"],
             autoStart: true,
             loop: true,
           }}

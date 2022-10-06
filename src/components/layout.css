@@ -1,11 +1,10 @@
 .layout-container {
-    /* background: pink;
-height: 100%; */
-
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    min-height: 100vh;
+    position: relative;
 }
 
 .layout {
@@ -45,7 +44,6 @@ height: 100%; */
 
 
 /* @media screen and (max-width:767px) {} */
-
 /* @media screen and (min-width:768px) {} */
 
 @media screen and (min-width:993px) {

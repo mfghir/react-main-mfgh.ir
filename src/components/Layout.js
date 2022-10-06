@@ -1,6 +1,6 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { Navigate, useLocation } from "react-router";
+import "./layout.css";
+import { Navigate, Route, Routes, useLocation } from "react-router";
 
 import Portfolio from "./portfolio/Portfolio";
 import AboutMe from "./aboutme/AboutMe";
@@ -10,8 +10,8 @@ import Resume from "./resume/Resume";
 import Home from "./home/Home";
 import Navbar from "./navbar/Navbar";
 
-import "./layout.css"
 import GoTopButton from "../common/GoTopButton";
+import { Background } from "../common/Background";
 
 const Layout = ({ style, handleOnclick }) => {
   const location = useLocation();
@@ -25,13 +25,16 @@ const Layout = ({ style, handleOnclick }) => {
         key={location.pathname}
       />
 
+      <Background />
+
       <div
         className={`layout ${
           location.pathname === "/" ? "layoutRight" : "layoutLeft"
         }`}
         style={style}
       >
-        <GoTopButton/>
+        <GoTopButton />
+
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />

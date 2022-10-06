@@ -46,8 +46,6 @@ export const TRANSLATIONS_KO = {
 
   contactTwo: "연락처",
   getInTouch: "연락하세요",
-  // getInTouchText:
-  //   "나에게 메일 보내세요 , 나에게 메일 보내세요, 나에게 메일 보내세요,나에게 메일 보내세요, 나에게 메일 보내세요 나에게 메일 보내세요",
   findMe: "나를 찾아주세요",
   teharnIran: "테헤란,이란",
   mailMe: "나에게 메일 보내세요",
