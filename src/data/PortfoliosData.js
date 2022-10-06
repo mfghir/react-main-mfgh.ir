@@ -219,9 +219,16 @@ export const PortfoliosData = [
     description: "Photo Gallery",
     imgUrl: img.js13,
     gitLink: "https://github.com/mfghir/photo-gallery",
-    netlifyLink: "https://mfgh-photo-gallery.netlify.app/",
+    netlifyLink: "https://mfgh-photo-gallery.netlify.app",
   },
-
+  {
+    id: 114,
+    title: "Js",
+    description: "Page Transitions",
+    imgUrl: img.js13,
+    gitLink: "https://github.com/mfghir/page-transitions-animation",
+    netlifyLink: "https://page-transitions-animations.netlify.app",
+  },
 
   // ---------------------------- react
 
