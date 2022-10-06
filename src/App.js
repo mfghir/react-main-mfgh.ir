@@ -1,7 +1,5 @@
-import "./App.css";
 import React, { useState } from "react";
 import { i18n } from "./i18n";
-
 import Layout from "./components/Layout";
 
 const App = () => {
