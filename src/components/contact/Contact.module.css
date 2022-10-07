@@ -138,6 +138,10 @@
 }
 
 @media screen and (min-width:993px) {
+    .contact {
+        width: 100%;
+    }
+
     .contactDiv {
         flex-direction: unset;
     }

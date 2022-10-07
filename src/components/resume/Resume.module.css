@@ -102,6 +102,10 @@
 }
 
 @media screen and (min-width:993px) {
+    .resume {
+        width: 100%;
+    }
+
     .secs {
         display: flex;
         justify-content: space-between;

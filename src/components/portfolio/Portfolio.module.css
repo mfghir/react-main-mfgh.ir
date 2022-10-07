@@ -140,6 +140,10 @@
     }
 }
 
-/* @media screen and (min-width:993px) {} */
+@media screen and (min-width:993px) {
+    .portfolio {
+        width: 100%;
+    }
+}
 
 /* @media screen and (min-width:1201px) {} */

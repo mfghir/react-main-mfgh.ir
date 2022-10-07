@@ -108,6 +108,10 @@
   }
 }
 
-/* @media screen and (min-width: 993px) {} */
+@media screen and (min-width: 993px) {
+  .aboutme {
+    width: 100%;
+  }
+}
 
 /* @media screen and (min-width: 1201px) {} */
