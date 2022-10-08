@@ -16,7 +16,7 @@ const Portfolio = () => {
   return (
     <motion.div
       // layout
-      initial={{ opacity: 0, transform: "translateX(-100%)" }}
+      initial={{ opacity: 0, transform: "translateX(-50%)" }}
       animate={{ opacity: 1, transform: "translateX(0%)" }}
       exit={{ opacity: 0, transform: "translateX(0%)" }}
       transition={{ duration: 0.8 }}

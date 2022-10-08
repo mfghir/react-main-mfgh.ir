@@ -10,7 +10,6 @@ import { ImCodepen, ImLinkedin2 } from "react-icons/im";
 import { BsGithub, BsTelegram, BsInstagram } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
 
-import "./nav.css";
 import DarkMood from "../../common/DarkMood";
 
 const Navbar = ({ handleOnclick, style, location }) => {
@@ -32,7 +31,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
   });
 
   return (
-    <section>
+    <>
       <div className={styles.menuTM}>
         <img src={img.logo} alt="logo" />
         <ul onClick={() => setOpen(!open)}>
@@ -42,22 +41,14 @@ const Navbar = ({ handleOnclick, style, location }) => {
         </ul>
       </div>
 
-      {/* <motion.div
-          layout
-          initial={{ right: 0 ,transition : '1s' }}
-          animate={{ right: "75%",transition : '1s'  }}
-          exit={{ right: "75%",transition : '1s'  }}
-          // initial={false}
-          transition={{ duration: 0.8 }}
-        > */}
       <Show open={open}>
         {isDesktopOrLaptop ? (
           <nav
             style={style}
             open={open}
             location={location.pathname}
-            className={`nav ${
-              location.pathname === "/" ? "cssRight" : "cssLeft"
+            className={`${styles.nav} ${
+              location.pathname === "/" ? styles.cssRight : styles.cssLeft
             }`}
           >
             <button className={styles.theme}>
@@ -282,8 +273,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
           </nav>
         )}
       </Show>
-      {/* </motion.div> */}
-    </section>
+    </>
   );
 };
 

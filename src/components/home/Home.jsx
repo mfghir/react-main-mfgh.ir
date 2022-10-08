@@ -4,17 +4,9 @@ import styles from "./home.module.css";
 
 import { t } from "i18next";
 import Typewriter from "typewriter-effect";
-import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    // <motion.div
-    // layout
-    // initial={{ width: "50%", position: "absolute", top: 0, left: 0 }}
-    // animate={{ width: "50%", position: "none" }}
-    // exit={{ width: "50%", position: "none" }}
-    // transition={{ duration: 0.8 }}
-    // >
     <div className={styles.home}>
       <img src={img.homeBg} alt="home" />
 
@@ -24,7 +16,7 @@ const Home = () => {
             typewriter.pauseFor(2500).deleteAll().start();
           }}
           options={{
-            strings: ["Web Developer", "Front-end","UI Designer"],
+            strings: ["Web Developer", "Front-end", "UI Designer"],
             autoStart: true,
             loop: true,
           }}
@@ -43,7 +35,6 @@ const Home = () => {
         </li>
       </ul>
     </div>
-    // </motion.div>
   );
 };
 

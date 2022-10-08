@@ -7,13 +7,14 @@ import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    // <motion.div
-    //   layout
-    //   initial={{ opacity: 0, transform: "translateX(120%)" }}
-    //   animate={{ opacity: 1, transform: "translateX(0%)" }}
-    //   exit={{ opacity: 0, transform: "translateX(0%)" }}
-    //   transition={{ duration: 0.8 }}
-    // >
+    <motion.div
+    // layout
+    initial={{ opacity: 0, transform: "translateX(-100%)" }}
+    animate={{ opacity: 1, transform: "translateX(0%)" }}
+    exit={{ opacity: 0, transform: "translateX(0%)" }}
+    transition={{ duration: 0.8 }}
+    className={styles.portfolio}
+  >
     <div className={styles.resume}>
       <h1>{t("resumeTwo")}</h1>
 
@@ -63,7 +64,7 @@ const Resume = () => {
         </section>
       </div>
     </div>
-    // </motion.div>
+    </motion.div>
   );
 };
 

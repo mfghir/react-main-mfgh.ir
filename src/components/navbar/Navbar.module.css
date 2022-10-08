@@ -35,6 +35,11 @@
     color: var(--p-color);
 }
 
+
+
+
+
+
 .nav {
     background: var(--bg-color-sec);
     box-shadow: var(--box-shadow);
@@ -220,10 +225,69 @@
 
 
 
+
+
+
+
+
+
+
+.cssRight {
+    top: 0;
+    right: 0;
+    width: 50%;
+
+    height: 100%;
+    /* animation: animRight 1s ease 0s 1 normal forwards; */
+    /* transition: 1s !important; */
+}
+
+.cssLeft {
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /* animation: animLeft 1s ease 0s 1 normal forwards; */
+    /* transition: 1s !important; */
+}
+
+
+
+
+@keyframes animLeft {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: 75%;
+    }
+}
+
+
+@keyframes animRight {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+
+
+
+
+
+
+
+
 /* @media screen and (max-width:767px){} */
 /* @media screen and (min-width:768px){} */
 
 @media screen and (min-width:993px) {
+
+
 
     .menuTM {
         display: none;
@@ -237,6 +301,22 @@
         width: 180px;
         height: 180px;
     }
+
+
+    .cssLeft {
+        width: 25%;
+        /* animation: animLeft 1s ease 0s 1 normal forwards; */
+    }
+
+    .cssRight {
+        /* animation: animRight 1s ease 0s 1 normal forwards; */
+    }
 }
 
-/* @media screen and (min-width:1201px){} */
+@media screen and (min-width:1201px) {
+
+    .cssLeft {
+        /* animation: animLeft 1s ease 0s 1 normal forwards; */
+    }
+
+}
