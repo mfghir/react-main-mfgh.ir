@@ -408,4 +408,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/shopping-react-app",
     netlifyLink: "https://shopping-react-app.vercel.app",
   },
+  {
+    id: 222,
+    title: "React",
+    description: "Accordion Menu",
+    imgUrl: img.react22,
+    gitLink: "https://github.com/mfghir/accordion-menu-with-react",
+    netlifyLink: "https://accordion-menu-with-react.vercel.app",
+  },
 ];

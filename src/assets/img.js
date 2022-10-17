@@ -5,8 +5,8 @@ import avatar from "./img/avatar.jpg";
 import aboutme from "./img/aboutme.jpg";
 import zigzag from "./img/zigzag.svg";
 import homeBg from "./img/home.jpg";
-import logo from "./icons/favicon.ico"
-import notfound from "./img/notfound.jpg"
+import logo from "./icons/favicon.ico";
+import notfound from "./img/notfound.jpg";
 
 // ------------- web
 import proj1 from "./img/Proj1.png";
@@ -42,28 +42,28 @@ import js14 from "./img/js14.PNG";
 import js15 from "./img/js15.PNG";
 
 // --------- react
-import react1 from "./img/react1.PNG"
-import react2 from "./img/react2.PNG"
-import react3 from "./img/react3.PNG"
-import react4 from "./img/react4.PNG"
-import react5 from "./img/react5.PNG"
-import react6 from "./img/react6.PNG"
-import react7 from "./img/react7.PNG"
-import react8 from "./img/react8.PNG"
-import react9 from "./img/react9.PNG"
-import react10 from "./img/react10.PNG"
-import react11 from "./img/react11.PNG"
-import react12 from "./img/react12.PNG"
-import react13 from "./img/react13.PNG"
-import react14 from "./img/react14.PNG"
-import react15 from "./img/react15.PNG"
-import react16 from "./img/react16.PNG"
-import react17 from "./img/react17.PNG"
-import react18 from "./img/react18.PNG"
-import react19 from "./img/react19.PNG"
-import react20 from "./img/react20.PNG"
-import react21 from "./img/react21.PNG"
-
+import react1 from "./img/react1.PNG";
+import react2 from "./img/react2.PNG";
+import react3 from "./img/react3.PNG";
+import react4 from "./img/react4.PNG";
+import react5 from "./img/react5.PNG";
+import react6 from "./img/react6.PNG";
+import react7 from "./img/react7.PNG";
+import react8 from "./img/react8.PNG";
+import react9 from "./img/react9.PNG";
+import react10 from "./img/react10.PNG";
+import react11 from "./img/react11.PNG";
+import react12 from "./img/react12.PNG";
+import react13 from "./img/react13.PNG";
+import react14 from "./img/react14.PNG";
+import react15 from "./img/react15.PNG";
+import react16 from "./img/react16.PNG";
+import react17 from "./img/react17.PNG";
+import react18 from "./img/react18.PNG";
+import react19 from "./img/react19.PNG";
+import react20 from "./img/react20.PNG";
+import react21 from "./img/react21.PNG";
+import react22 from "./img/react22.PNG";
 
 export default {
   proj1,
@@ -98,7 +98,6 @@ export default {
   js14,
   js15,
 
-  
   // react,
   react1,
   react2,
@@ -121,13 +120,12 @@ export default {
   react19,
   react20,
   react21,
-
+  react22,
 
   avatar,
   homeBg,
   aboutme,
   zigzag,
   logo,
-  notfound
-
+  notfound,
 };
