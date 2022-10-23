@@ -424,4 +424,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/grocery-list-with-react",
     netlifyLink: "https://grocery-list-with-react.vercel.app",
   },
+  {
+    id: 224,
+    title: "React",
+    description: "Search Hacker News",
+    imgUrl: img.react24,
+    gitLink: "https://github.com/mfghir/search-hacker-news",
+    netlifyLink: "https://search-hacker-news.vercel.app",
+  },
 ];
