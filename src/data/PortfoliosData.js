@@ -432,4 +432,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/search-hacker-news",
     netlifyLink: "https://search-hacker-news.vercel.app",
   },
+  {
+    id: 225,
+    title: "React",
+    description: "Rick and Morty",
+    imgUrl: img.react25,
+    gitLink: "https://github.com/mfghir/rick-and-morty",
+    netlifyLink: "https://rick-and-morty-phi-ten.vercel.app",
+  },
 ];
