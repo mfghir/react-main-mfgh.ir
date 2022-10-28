@@ -440,4 +440,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/rick-and-morty",
     netlifyLink: "https://rick-and-morty-phi-ten.vercel.app",
   },
+  {
+    id: 226,
+    title: "React",
+    description: "Pic Uploader",
+    imgUrl: img.react26,
+    gitLink: "https://github.com/mfghir/pic-uplaoder",
+    netlifyLink: "https://pic-uplaoder.vercel.app",
+  },
 ];
