@@ -448,4 +448,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/pic-uplaoder",
     netlifyLink: "https://pic-uplaoder.vercel.app",
   },
+  {
+    id: 227,
+    title: "React",
+    description: "Todo List With React",
+    imgUrl: img.react27,
+    gitLink: "https://github.com/mfghir/todo-list-with-react",
+    netlifyLink: "https://todo-list-with-react-mfgh.vercel.app",
+  },
 ];
