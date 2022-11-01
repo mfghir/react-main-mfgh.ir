@@ -69,6 +69,7 @@ import react24 from "./img/react24.PNG";
 import react25 from "./img/react25.PNG";
 import react26 from "./img/react26.PNG";
 import react27 from "./img/react27.PNG";
+import react28 from "./img/react28.PNG";
 
 export default {
   proj1,
@@ -132,6 +133,7 @@ export default {
   react25,
   react26,
   react27,
+  react28,
 
   avatar,
   homeBg,
