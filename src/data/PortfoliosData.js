@@ -237,6 +237,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/iphone-web-animation",
     netlifyLink: "https://iphone-web-animation.netlify.app",
   },
+  {
+    id: 116,
+    title: "Js",
+    description: "Wikipedia Search",
+    imgUrl: img.js16,
+    gitLink: "https://github.com/mfghir/wikipedia-search",
+    netlifyLink: "https://wikipedia-searchbar.vercel.app",
+  },
 
   // ---------------------------- react
 
