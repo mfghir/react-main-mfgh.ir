@@ -245,7 +245,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/wikipedia-search",
     netlifyLink: "https://wikipedia-searchbar.vercel.app",
   },
-
+  {
+    id: 117,
+    title: "Js",
+    description: "Grocery List with js",
+    imgUrl: img.js17,
+    gitLink: "https://github.com/mfghir/grocery-list-with-js",
+    netlifyLink: "https://grocery-list-with-js.vercel.app",
+  },
   // ---------------------------- react
 
   {
