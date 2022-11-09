@@ -15,11 +15,11 @@ export const TRANSLATIONS_EN = {
   email: "E-mail",
 
   aboutmeTwo:"I'm a web designer living in Tehran and I am looking for a job position as a web designer. I'm an organized, responsible, committed person and a graduate of South Tehran Azad University. I have also completed courses such as ICDL, Web Developer and React/Redux. I am currently studying user interface design.",
-  mySkills: "skills",
-  languages: "languages",
-  farsi: "farsi",
-  english: "english",
-  korean: "korean",
+  mySkills: "Skills",
+  languages: "Languages",
+  farsi: "Farsi",
+  english: "English",
+  korean: "Korean",
 
   resumeTwo: "Resume",
   education: "Education",

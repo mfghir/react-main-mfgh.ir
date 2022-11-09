@@ -479,4 +479,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/form-with-mui",
     netlifyLink: "https://form-with-mui.vercel.app",
   },
+  {
+    id: 229,
+    title: "React",
+    description: "Tabs With react",
+    imgUrl: img.react29,
+    gitLink: "https://github.com/mfghir/tabs-with-react",
+    netlifyLink: "https://tabs-with-react.vercel.app",
+  },
 ];
