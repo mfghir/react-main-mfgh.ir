@@ -52,6 +52,7 @@ export const TRANSLATIONS_EN = {
   mailMe: "Mail Me",
   emailTwo: "fatemeghafari77[@]gmail.com",
   callMe: "call Me",
+  phoneNum: "+98 922 458 5055",
 
   nameInp: "Name",
   messageInp: "Message",

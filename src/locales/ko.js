@@ -51,6 +51,7 @@ export const TRANSLATIONS_KO = {
   mailMe: "나에게 메일 보내세요",
   emailTwo: "fatemeghafari77[@]gmail.com",
   callMe: "전화해요",
+  phoneNum: "+98 922 458 5055",
 
   contactForm: "문의 양식",
   nameInp: "이름",

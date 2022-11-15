@@ -44,7 +44,7 @@ const Contact = () => {
             <div>
               <BsTelephone />
               <span>{t("callMe")}</span>
-              <p>[+98] 9224585055</p>
+              <p>{t("phoneNum")}</p>
             </div>
           </div>
         </div>

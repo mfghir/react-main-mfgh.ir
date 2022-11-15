@@ -48,7 +48,7 @@ export const TRANSLATIONS_FA = {
   mailMe: "پست الکترونیکی",
   emailTwo: "fatemeghafari77[@]gmail.com",
   callMe: "تماس با من",
-
+  phoneNum: "5055 458 922 98+",
 
   contactForm:"فرم تماس",
   nameInp: "اسم",
