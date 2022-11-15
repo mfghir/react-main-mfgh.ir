@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div className={`home ${styles.home}`}>
       <img src={img.homeBg} alt="home" />
 
       <h1>

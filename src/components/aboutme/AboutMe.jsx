@@ -13,14 +13,16 @@ const AboutMe = () => {
       exit={{ opacity: 0, transform: "translateY(0%)" }}
       transition={{ duration: 0.8 }}
     >
-      <section className={styles.aboutme}>
+      <section className={`aboutme ${styles.aboutme}`}>
         <img src={img.aboutme} alt="aboutme" />
         <p>{t("aboutmeTwo")}</p>
 
         <div className={styles.sl}>
           <section className={styles.skills}>
-            <h4>{t("mySkills")}</h4>
-            <img src={img.zigzag} alt="zigzag" />
+            <article className="title">
+              <h4>{t("mySkills")}</h4>
+              <img src={img.zigzag} alt="zigzag" />
+            </article>
 
             <div>
               <span>HTML</span>
@@ -145,8 +147,10 @@ const AboutMe = () => {
           </section>
 
           <section className={styles.languages}>
-            <h4>{t("languages")}</h4>
-            <img src={img.zigzag} alt="zigzag" />
+            <article className="title">
+              <h4>{t("languages")}</h4>
+              <img src={img.zigzag} alt="zigzag" />
+            </article>
 
             <div>
               <span>{t("farsi")}</span>

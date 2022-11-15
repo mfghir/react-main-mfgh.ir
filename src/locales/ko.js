@@ -15,7 +15,7 @@ export const TRANSLATIONS_KO = {
   email: "이메일",
 
   aboutmeTwo:
-    "저는 테헤란에 거주하는 웹 디자이너이며 웹 디자이너로 일할 자리를 찾고 있습니다. 저는 조직적이고 책임감 있고 헌신적인 사람이며 South Tehran Azad University를 졸업했습니다. ICDL, Web Developer 및 React/Redux와 같은 과정도 이수했습니다. 저는 현재 사용자 인터페이스 디자인을 공부하고 있습니다.",
+    "저는 테헤란에 거주하는 웹 디자이너이며 웹 디자이너로 일할 자리를 찾고 있습니다. 저는 조직적이고 책임감 있고 헌신적인 사람이며 South Tehran Azad University를 졸업했습니다. 저는 현재 사용자 인터페이스 디자인을 공부하고 있습니다.",
   mySkills: "기술",
   languages: "언어",
   farsi: "파르시",
@@ -51,4 +51,19 @@ export const TRANSLATIONS_KO = {
   mailMe: "나에게 메일 보내세요",
   emailTwo: "fatemeghafari77[@]gmail.com",
   callMe: "전화해요",
+
+  contactForm: "문의 양식",
+  nameInp: "이름",
+  messageInp: "메시지",
+  submitBtn: "제출하다",
+
+  errorNameOne: "이름을 입력해야 합니다.",
+  errorNameTwo: "이름은 두 글자 이상이어야 합니다",
+  errorEmailOne: "이메일은 필수입니다",
+  errorEmailTwo: "잘못된 이메일",
+  errorMessageOne: "메시지 입력은 필수입니다",
+  errorMessageTwo: "입력한 메시지가 충분하지 않습니다",
+
+  toastSucc: "메시지가 성공적으로 전송되었습니다 👍",
+  toastErr: "❌전송 실패",
 };

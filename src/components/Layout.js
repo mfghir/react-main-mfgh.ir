@@ -13,14 +13,13 @@ import Navbar from "./navbar/Navbar";
 import GoTopButton from "../common/GoTopButton";
 import { Background } from "../common/Background";
 
-const Layout = ({ style, handleOnclick }) => {
+const Layout = ({ handleOnclick }) => {
   const location = useLocation();
 
   return (
     <section className="layout-container">
       <Navbar
         handleOnclick={handleOnclick}
-        style={style}
         location={location}
         key={location.pathname}
       />
@@ -31,7 +30,6 @@ const Layout = ({ style, handleOnclick }) => {
         className={`layout ${
           location.pathname === "/" ? "layoutRight" : "layoutLeft"
         }`}
-        style={style}
       >
         <GoTopButton />
 

@@ -12,7 +12,7 @@ import { useMediaQuery } from "react-responsive";
 
 import DarkMood from "../../common/DarkMood";
 
-const Navbar = ({ handleOnclick, style, location }) => {
+const Navbar = ({ handleOnclick, location }) => {
   const [open, setOpen] = useState(false);
 
   const openMenu1 = {
@@ -32,7 +32,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
 
   return (
     <>
-      <div className={styles.menuTM}>
+      <div className={`menuTM ${styles.menuTM}`}>
         <img src={img.logo} alt="logo" />
         <ul onClick={() => setOpen(!open)}>
           <li style={openMenu1}></li>
@@ -44,10 +44,9 @@ const Navbar = ({ handleOnclick, style, location }) => {
       <Show open={open}>
         {isDesktopOrLaptop ? (
           <nav
-            style={style}
             open={open}
             location={location.pathname}
-            className={`${styles.nav} ${
+            className={`nav ${styles.nav} ${
               location.pathname === "/" ? styles.cssRight : styles.cssLeft
             }`}
           >
@@ -159,12 +158,7 @@ const Navbar = ({ handleOnclick, style, location }) => {
             </div>
           </nav>
         ) : (
-          <nav
-            style={style}
-            open={open}
-            location={location.pathname}
-            className={styles.nav}
-          >
+          <nav open={open} location={location.pathname} className={`nav ${styles.nav}`}>
             <button className={styles.theme}>
               <DarkMood />
             </button>

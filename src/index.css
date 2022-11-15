@@ -58,6 +58,27 @@ body {
   overflow: hidden;
 }
 
+.title {
+  width: fit-content;
+}
+
+.title h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+
+  color: var(--h4-color);
+  margin-top: 20px;
+
+  width: fit-content;
+}
+
+.title img {
+  margin: 10px 0;
+  width: 100%;
+}
+
+
 
 /* @media screen and (min-width:768px){} */
 

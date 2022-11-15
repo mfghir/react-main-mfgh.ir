@@ -36,18 +36,7 @@
   margin-bottom: 20px;
 }
 
-.skills h4,
-.languages h4 {
-  font-weight: 700;
-  font-size: 17px;
-  text-transform: uppercase;
-}
 
-.skills img,
-.languages img {
-  width: 20%;
-  margin: 10px 0;
-}
 
 .skills div,
 .languages div {

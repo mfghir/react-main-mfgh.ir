@@ -20,7 +20,7 @@ const Portfolio = () => {
       animate={{ opacity: 1, transform: "translateX(0%)" }}
       exit={{ opacity: 0, transform: "translateX(0%)" }}
       transition={{ duration: 0.8 }}
-      className={styles.portfolio}
+      className={`portfolio ${styles.portfolio}`}
     >
       <div>
         <h1>{t("portfolios")}</h1>
