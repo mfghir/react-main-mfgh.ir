@@ -253,7 +253,7 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/grocery-list-with-js",
     netlifyLink: "https://grocery-list-with-js.vercel.app",
   },
-    {
+  {
     id: 118,
     title: "Js",
     description: "Filter & Search Prodoucts",
@@ -494,5 +494,13 @@ export const PortfoliosData = [
     imgUrl: img.react29,
     gitLink: "https://github.com/mfghir/tabs-with-react",
     netlifyLink: "https://tabs-with-react.vercel.app",
+  },
+  {
+    id: 230,
+    title: "React",
+    description: "Color Generator",
+    imgUrl: img.react30,
+    gitLink: "https://github.com/mfghir/color-generator",
+    netlifyLink: "https://color-generator-mfgh.vercel.app",
   },
 ];
