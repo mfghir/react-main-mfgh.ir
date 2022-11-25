@@ -261,6 +261,15 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/filter-and-search-prodoucts",
     netlifyLink: "https://filter-and-search-prodoucts.vercel.app",
   },
+  {
+    id: 119,
+    title: "Js",
+    description: "Lorem ipsum generator",
+    imgUrl: img.js19,
+    gitLink: "https://github.com/mfghir/lorem-ipsum-generator",
+    netlifyLink: "https://lorem-ipsum-generator-mfgh.vercel.app",
+  },
+
   // ---------------------------- react
 
   {
