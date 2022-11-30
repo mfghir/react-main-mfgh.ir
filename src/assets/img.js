@@ -44,6 +44,7 @@ import js16 from "./img/js16.PNG";
 import js17 from "./img/js17.PNG";
 import js18 from "./img/js18.PNG";
 import js19 from "./img/js19.PNG";
+import js20 from "./img/js20.PNG";
 
 // --------- react
 import react1 from "./img/react1.PNG";
@@ -113,6 +114,7 @@ export default {
   js17,
   js18,
   js19,
+  js20,
 
   // react,
   react1,

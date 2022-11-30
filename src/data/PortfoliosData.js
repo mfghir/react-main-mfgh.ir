@@ -269,6 +269,14 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/lorem-ipsum-generator",
     netlifyLink: "https://lorem-ipsum-generator-mfgh.vercel.app",
   },
+    {
+    id: 120,
+    title: "Js",
+    description: "Random Dad Joke",
+    imgUrl: img.js20,
+    gitLink: "https://github.com/mfghir/dad-joke-api",
+    netlifyLink: "https://dad-joke-api.vercel.app",
+  },
 
   // ---------------------------- react
 
