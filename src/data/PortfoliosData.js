@@ -520,4 +520,12 @@ export const PortfoliosData = [
     gitLink: "https://github.com/mfghir/color-generator",
     netlifyLink: "https://color-generator-mfgh.vercel.app",
   },
+  {
+    id: 231,
+    title: "React",
+    description: "React Query SWA api",
+    imgUrl: img.react31,
+    gitLink: "https://github.com/mfghir/react-query-swa-api",
+    netlifyLink: "https://react-query-swa-api.vercel.app",
+  },
 ];
