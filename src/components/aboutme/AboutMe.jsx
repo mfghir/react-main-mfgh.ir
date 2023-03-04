@@ -1,8 +1,8 @@
 import { t } from "i18next";
-import { img } from "../../assets";
 import styles from "./AboutMe.module.css";
 
 import { motion } from "framer-motion";
+import zigzag from "../../assets/icons/zigzag.svg";
 
 const AboutMe = () => {
   return (
@@ -14,14 +14,14 @@ const AboutMe = () => {
       transition={{ duration: 0.8 }}
     >
       <section className={`aboutme ${styles.aboutme}`}>
-        <img src={img.aboutme} alt="aboutme" />
+        <img src="https://i.postimg.cc/vHSLwNrH/aboutme.jpg" alt="aboutme" />
         <p>{t("aboutmeTwo")}</p>
 
         <div className={styles.sl}>
           <section className={styles.skills}>
             <article className="title">
               <h4>{t("mySkills")}</h4>
-              <img src={img.zigzag} alt="zigzag" />
+              <img src={zigzag} alt="zigzag" />
             </article>
 
             <div>
@@ -149,7 +149,7 @@ const AboutMe = () => {
           <section className={styles.languages}>
             <article className="title">
               <h4>{t("languages")}</h4>
-              <img src={img.zigzag} alt="zigzag" />
+              <img src={zigzag} alt="zigzag" />
             </article>
 
             <div>

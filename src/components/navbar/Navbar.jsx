@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { t } from "i18next";
 
-import { img } from "../../assets";
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
-
 import { ImCodepen, ImLinkedin2 } from "react-icons/im";
+
 import { BsGithub, BsTelegram, BsInstagram } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
-
 import DarkMood from "../../common/DarkMood";
+
+import favIcon from "../../assets/icons/favicon.ico";
 
 const Navbar = ({ handleOnclick, location }) => {
   const [open, setOpen] = useState(false);
@@ -33,7 +33,7 @@ const Navbar = ({ handleOnclick, location }) => {
   return (
     <>
       <div className={`menuTM ${styles.menuTM}`}>
-        <img src={img.logo} alt="logo" />
+        <img src={favIcon} alt="logo" />
         <ul onClick={() => setOpen(!open)}>
           <li style={openMenu1}></li>
           <li style={openMenu2}></li>
@@ -55,7 +55,10 @@ const Navbar = ({ handleOnclick, location }) => {
             </button>
 
             <figure className={styles.profile}>
-              <img src={img.avatar} alt="profile" />
+              <img
+                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                alt="profile"
+              />
             </figure>
             <h2>{t("name")}</h2>
 
@@ -158,13 +161,20 @@ const Navbar = ({ handleOnclick, location }) => {
             </div>
           </nav>
         ) : (
-          <nav open={open} location={location.pathname} className={`nav ${styles.nav}`}>
+          <nav
+            open={open}
+            location={location.pathname}
+            className={`nav ${styles.nav}`}
+          >
             <button className={styles.theme}>
               <DarkMood />
             </button>
 
             <figure className={styles.profile}>
-              <img src={img.avatar} alt="profile" />
+              <img
+                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                alt="profile"
+              />
             </figure>
             <h2>{t("name")}</h2>
 

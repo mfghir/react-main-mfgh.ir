@@ -1,12 +1,10 @@
-import React from "react";
-import { t } from "i18next";
-import { img } from "../../assets";
-
-import styles from "./Contact.module.css";
 import { BsGeoAlt, BsEnvelope, BsTelephone } from "react-icons/bs";
+import styles from "./Contact.module.css";
 import { motion } from "framer-motion";
 
 import Form from "../../common/Form";
+import { t } from "i18next";
+import zigzag from "../../assets/icons/zigzag.svg";
 
 const Contact = () => {
   return (
@@ -24,7 +22,7 @@ const Contact = () => {
       <section className={styles.contactSec}>
         <div className="title">
           <h4>{t("getInTouch")}</h4>
-          <img src={img.zigzag} alt="zigzag" />
+          <img src={zigzag} alt="zigzag" />
         </div>
 
         <div className={styles.contactDiv}>
@@ -53,7 +51,7 @@ const Contact = () => {
       <section className={styles.formSec}>
         <div className="title">
           <h4>{t("contactForm")}</h4>
-          <img src={img.zigzag} alt="zig-zag" />
+          <img src={zigzag} alt="zig-zag" />
         </div>
 
         <Form />

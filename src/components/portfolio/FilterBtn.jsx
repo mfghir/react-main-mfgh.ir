@@ -2,15 +2,34 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import "./FilterBtn.css";
 
+import { useQuery } from "react-query";
+import Loading from "../../common/Loading";
+
 const FilterBtn = ({ setActiveFilter, activeFilter, setFilterWork, works }) => {
+
+
+  const { data, isLoading, isError, error } = useQuery("portfolios", () =>
+    fetch("https://mfghir-personal-web-api.vercel.app/PortfoliosData").then(
+      (res) => res.json()
+    )
+  );
+
+
   useEffect(() => {
     if (activeFilter === "All") {
-      setFilterWork(works);
+      setFilterWork(data);
       return;
     }
-    const filtered = works.filter((item) => item.title.includes(activeFilter));
+    const filtered = data.filter((item) => item.title.includes(activeFilter));
     setFilterWork(filtered);
-  }, [activeFilter, setFilterWork, works]);
+  }, [activeFilter, setFilterWork, data]);
+
+
+
+  if (isLoading) return <Loading />
+
+  if (isError) return <div>Error: {error.message}</div>;
+
 
   return (
     <div className="btns">

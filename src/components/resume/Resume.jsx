@@ -1,9 +1,8 @@
-import React from "react";
 import { t } from "i18next";
-import { img } from "../../assets";
 
 import styles from "./Resume.module.css";
 import { motion } from "framer-motion";
+import zigzag from "../../assets/icons/zigzag.svg";
 
 const Resume = () => {
   return (
@@ -22,7 +21,7 @@ const Resume = () => {
           <section className={`education ${styles.education}`}>
             <article className="title">
               <h4>{t("education")}</h4>
-              <img src={img.zigzag} alt="zigzag" />
+              <img src={zigzag} alt="zigzag" />
             </article>
 
             <ul>
@@ -43,9 +42,9 @@ const Resume = () => {
           <section className={`languages ${styles.languages}`}>
             <article className="title">
               <h4>{t("experience")}</h4>
-              <img src={img.zigzag} alt="zigzag" />
+              <img src={zigzag} alt="zigzag" />
             </article>
-            
+
             <ul>
               <li>
                 <span>{t("experienceYearTwo")}</span>

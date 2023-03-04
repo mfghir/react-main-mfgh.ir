@@ -3,15 +3,26 @@ import styles from "./Portfolio.module.css";
 import { t } from "i18next";
 
 import { motion } from "framer-motion";
-import { PortfoliosData } from "../../data/PortfoliosData";
 import FilterBtn from "./FilterBtn";
-
 import PortfolioItem from "./PortfolioItem";
 
+import { useQuery } from "react-query";
+import Loading from "../../common/Loading";
+
 const Portfolio = () => {
-  const [works] = useState(PortfoliosData);
+  const { data, isLoading, isError, error } = useQuery("portfolios", () =>
+    fetch("https://mfghir-personal-web-api.vercel.app/PortfoliosData").then(
+      (res) => res.json()
+    )
+  );
+
+  // const [works] = useState(data);
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState("All");
+
+  if (isLoading) return <Loading />
+
+  if (isError) return <div>Error: {error.message}</div>;
 
   return (
     <motion.div
@@ -27,7 +38,7 @@ const Portfolio = () => {
 
         <div>
           <FilterBtn
-            works={works}
+            // works={works}
             setFilterWork={setFilterWork}
             activeFilter={activeFilter}
             setActiveFilter={setActiveFilter}

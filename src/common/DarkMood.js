@@ -1,4 +1,3 @@
-import React from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 import { useState, useEffect } from "react";
 

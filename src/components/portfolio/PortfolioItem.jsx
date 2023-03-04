@@ -1,13 +1,14 @@
-import React from "react";
 import styles from "./Portfolio.module.css";
 import { motion } from "framer-motion";
-
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
 const PortfolioItem = ({ filterWork }) => {
+
+  
+
   return (
     <div className={styles.portfolioItem}>
-      {filterWork.map((item) => {
+      {filterWork?.map((item) => {
         return (
           <motion.div
             layout

@@ -1,14 +1,11 @@
-import React from "react";
-import { img } from "../../assets";
 import styles from "./home.module.css";
-
 import { t } from "i18next";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
     <div className={`home ${styles.home}`}>
-      <img src={img.homeBg} alt="home" />
+      <img src="https://i.postimg.cc/G2rvjwCz/home.jpg" alt="home" />
 
       <h1>
         <Typewriter
