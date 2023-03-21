@@ -180,14 +180,14 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <ul className={styles.socials}>
               <li>
-                <a href="https://t.me/mfghir" target="_blank" rel="noreferrer">
+                <a href="https://t.me/fatemeweb" target="_blank" rel="noreferrer">
                   <BsTelegram />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://www.instagram.com/mfgh.ir/"
+                  href="https://www.instagram.com/fatemeweb/"
                   target="_blank"
                   rel="noreferrer"
                 >
