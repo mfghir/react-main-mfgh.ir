@@ -11,7 +11,7 @@ import Loading from "../../common/Loading";
 
 const Portfolio = () => {
   const { data, isLoading, isError, error } = useQuery("portfolios", () =>
-    fetch("https://fatemeweb-api.vercel.app/PortfoliosData").then(
+    fetch("https://personal-web-api-react.vercel.app/PortfoliosData").then(
       (res) => res.json()
     )
   );

@@ -9,7 +9,7 @@ const FilterBtn = ({ setActiveFilter, activeFilter, setFilterWork, works }) => {
 
 
   const { data, isLoading, isError, error } = useQuery("portfolios", () =>
-    fetch("https://mfghir-personal-web-api.vercel.app/PortfoliosData").then(
+    fetch("https://personal-web-api-react.vercel.app/PortfoliosData").then(
       (res) => res.json()
     )
   );
